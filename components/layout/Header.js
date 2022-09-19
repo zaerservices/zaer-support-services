@@ -104,7 +104,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul> */}
                                         </li>
                                         <li >
-                                            <Link href="page-contact"><a>Contact Us</a></Link>
+                                            <Link href="/page-contact"><a>Contact Us</a></Link>
                                             {/* <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/page-contact"><a><i className="fi fi-rr-paper-plane" />Contact</a></Link>

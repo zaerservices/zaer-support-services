@@ -45,18 +45,18 @@ const Sidebar = ({ openClass }) => {
                                 <nav>
                                     <ul className="mobile-menu font-heading">
                                         <li className={isActive.key == 1 ? "has-children active" : "has-children"}>
-                                            <span onClick={() => handleToggle(1)} className="menu-expand"><i className="fi-rr-angle-small-down"></i></span>
+                                            {/* <span onClick={() => handleToggle(1)} className="menu-expand"><i className="fi-rr-angle-small-down"></i></span> */}
                                             <Link href="/"><a className="active">Home</a></Link>
                                             
                                         </li>
                                         <li className={isActive.key == 2 ? "has-children active" : "has-children"}>
-                                            <span onClick={() => handleToggle(2)} className="menu-expand"><i className="fi-rr-angle-small-down"></i></span>
+                                            {/* <span onClick={() => handleToggle(2)} className="menu-expand"><i className="fi-rr-angle-small-down"></i></span> */}
 
                                             <Link href="/page-about"><a>About</a></Link>
                                            
                                         </li>
                                         <li className={isActive.key == 3 ? "has-children active" : "has-children"}>
-                                            <span onClick={() => handleToggle(3)}  className="menu-expand"><i className="fi-rr-angle-small-down"></i></span>
+                                            {/* <span onClick={() => handleToggle(3)}  className="menu-expand"><i className="fi-rr-angle-small-down"></i></span> */}
 
                                             <Link href="/services"><a className="closer">Services</a></Link>
                                             <ul className={isActive.key == 3 ? "sub-menu d-block" : "sub-menu d-none"}>
@@ -66,7 +66,7 @@ const Sidebar = ({ openClass }) => {
                                             </ul>
                                         </li>
                                         <li className={isActive.key == 4 ? "has-children active" : "has-children"}>
-                                            <span onClick={() => handleToggle(4)}  className="menu-expand"><i className="fi-rr-angle-small-down"></i></span>
+                                            {/* <span onClick={() => handleToggle(4)}  className="menu-expand"><i className="fi-rr-angle-small-down"></i></span> */}
 
                                             <Link href="/page-contact"><a>Conatct Us </a></Link>
                                             <ul className={isActive.key == 4 ? "sub-menu d-block" : "sub-menu d-none"}>
