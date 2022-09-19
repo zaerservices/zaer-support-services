@@ -2,15 +2,12 @@
 /* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { useState } from "react";
-import 'react-modal-video/css/modal-video.css';
+
 import Layout from "../components/layout/Layout";
-const ModalVideo = dynamic(import("react-modal-video"), {
-    ssr: false,
-});
+
 
 function About3() {
-    const [isOpen, setOpen] = useState(false);
+   
     return (
         <>
             <Layout>
@@ -291,13 +288,7 @@ We're here to provide you with the best in class NDIS care support. We endeavour
                         </div>
                     </div>
                 </section> */}
-                <ModalVideo
-                    channel="youtube"
-                    autoplay
-                    isOpen={isOpen}
-                    videoId="7e90gBu4pas"
-                    onClose={() => setOpen(false)}
-                />
+              
             </Layout>
 
         </>

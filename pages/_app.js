@@ -2,7 +2,7 @@ import '../public/assets/css/app.2afad0c.bundle.css'
 import "../public/assets/css/swiper-custom.css";
 import React, { useEffect, useState } from "react";
 import Preloader from '../components/elements/Preloader';
-import 'react-modal-video/css/modal-video.css';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
