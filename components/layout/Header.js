@@ -58,7 +58,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul> */}
                                         </li>
                                         <li >
-                                            <Link href="page-about"><a>About</a></Link>
+                                            <Link href="/page-about"><a>About</a></Link>
                                             {/* <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/page-about-1"><a><i className="fi fi-rr-star" />About Us - 1</a></Link>
