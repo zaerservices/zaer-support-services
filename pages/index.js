@@ -6,7 +6,7 @@ import { useState } from "react";
 
 import Banner from "../components/layout/Banner";
 import Cards from "../components/layout/Cards";
-
+import PageData from '../data/pageData.json'
 
 import Layout from "../components/layout/Layout";
 
@@ -193,19 +193,18 @@ function Home() {
                                     </p>
                                 </div>
                                 <div className="col-lg-2 col-sm-1 col-12" />
-                            </div>
-                            <div className="container mt-70">
+                                <div className="container mt-70">
                                 <Cards/>
 
                               
                             </div>
-                            <div className="container mt-70">
-                                <Cards/>
-
-                              
                             </div>
+
+                            </div> 
+                            
                         </div>
-                    </div>
+                   
+                    
                 </section>
 
 {/*                 
@@ -253,7 +252,7 @@ function Home() {
                             <div className="col-lg-4 col-sm-12">
                                 <div className="card-grid-1 bg-5 bg-business hover-up">
                                     <div className="grid-1-img">
-                                        <img src="/assets/imgs/page/homepage1/business-strategy.svg" alt="Agon" />
+                                        <img src="/assets/imgs/template/icon2.svg" alt="Agon" />
                                     </div>
                                     <h3 className="text-heading-3 mt-20">
                                     Enabling Opportunities
@@ -273,7 +272,7 @@ function Home() {
                             <div className="col-lg-4 col-sm-12">
                                 <div className="card-grid-1 bg-9 bg-local hover-up">
                                     <div className="grid-1-img">
-                                        <img src="/assets/imgs/page/homepage1/local.svg" alt="Agon" />
+                                        <img src="assets/imgs/template/icon1.png" alt="Agon" />
                                     </div>
                                     <h3 className="text-heading-3 mt-20">
                                     Supporting Independence
@@ -293,7 +292,7 @@ function Home() {
                             <div className="col-lg-4 col-sm-12">
                                 <div className="card-grid-1 bg-2 bg-social hover-up">
                                     <div className="grid-1-img">
-                                        <img src="/assets/imgs/page/homepage1/social.svg" alt="Agon" />
+                                        <img src="assets/imgs/template/icon3.png" alt="Agon" />
                                     </div>
                                     <h3 className="text-heading-3 mt-20">
                                     Cultural & Linguistic Diversity

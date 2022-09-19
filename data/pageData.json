@@ -1,0 +1,21 @@
+[
+    {
+      "id": 0,
+      "img": "assets/imgs/template/card370x160.jpg",
+      "title":"Group/Centre Activities",
+      "body": "Encouraging participants to actively participate in social, community, and recreational activities"
+    },
+    {
+        "id": 1,
+        "img": "assets/imgs/template/card370x160.jpg",
+        "title":"Participate Community",
+        "body": "Help you to actively stay connected in your community and life goals."
+      },
+      {
+        "id": 2,
+        "img": "assets/imgs/template/card370x160.jpg",
+        "title":"Household Tasks",
+        "body": "Maintain your daily household chores with help around the house and garden."
+      }
+      
+]

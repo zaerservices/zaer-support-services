@@ -20,7 +20,8 @@ function About3() {
                             <div className="row">
                                 <div className="col-lg-12 text-center">
                                     <h1 className="text-display-2 color-gray-900">Our Story</h1>
-                                    <p className="text-heading-4 color-gray-600 mt-40">We supply enterprises, organizations and institutes of high-<br className="d-lg-block d-none" />tech industries with modern components. We build long-<br className="d-lg-block d-none" />term trusting relationships with our customers and partnes<br className="d-lg-block d-none" />for further fruitful cooperations.</p>
+                                    <p className="text-heading-4 color-gray-600 mt-40">Zaer Support Services is a disability support services provider based in Tarneit, Victoria. The company is established with the sole aim of offering support that always puts participants first.NDIS Care Support with Zaer
+The National Disability Insurance Scheme (NDIS) is a ground-breaking Australian Government initiative that provides support to Australians living with a permanent or long-term disability.</p>
                                 </div>
                             </div>
                         </div>
@@ -32,9 +33,9 @@ function About3() {
                             <div className="col-lg-1" />
                             <div className="col-lg-10">
                                 <div className="box-image">
-                                    <a className="popup-youtube btn-play-video btn-play-middle" onClick={() => setOpen(true)}>  </a>
+                                    {/* <a className="popup-youtube btn-play-video btn-play-middle" onClick={() => setOpen(true)}>  </a> */}
 
-                                    <img className="img-responsive bdrd-16" src="assets/imgs/page/about/3/img.png" alt="Agon" /></div>
+                                    <img className="img-responsive bdrd-16" src="assets/imgs/template/disability1.jpg" alt="Agon" /></div>
                             </div>
                             <div className="col-lg-1" />
                         </div>
@@ -45,13 +46,15 @@ function About3() {
                         <div className="row">
                             <div className="col-lg-1 col-sm-1 col-12" />
                             <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                <h2 className="text-heading-1 color-gray-900 mb-10">Providing solutions of every kind</h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">In a professional context it often happens that private or<br className="d-lg-block d-none" />corporate clients order a publication to publish news.</p>
+                                <h2 className="text-heading-1 color-gray-900 mb-10">Ending your search for NDIS care
+Enabling Independence</h2>
+                                <p className="text-body-lead-large color-gray-600 mt-20">Zaer Disability Support - Your NDIS care support provider
+We're here to provide you with the best in class NDIS care support. We endeavour your care freedom and respect, and make sure that you're always empowered in your choices.</p>
                             </div>
                             <div className="col-lg-1 col-sm-1 col-12" />
                         </div>
                     </div>
-                    <div className="container mt-40">
+                    {/* <div className="container mt-40">
                         <div className="row">
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="list-icons mt-50">
@@ -78,7 +81,7 @@ function About3() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
                 {/* <section className="section-box pt-100 pb-100 mt-100 bg-6">
                     <div className="container">

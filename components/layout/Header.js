@@ -72,7 +72,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul> */}
                                         </li>
                                         <li >
-                                            <Link href="page-service-1"><a>Services</a></Link>
+                                            <Link href="/services"><a>Services</a></Link>
                                             {/* <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/page-service-1"><a className="closer"><i className="fi fi-rr-gem" />Services - 1</a></Link>
@@ -123,8 +123,8 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 </li>
                                             </ul> */}
                                         </li>
-                                        <li >
-                                            <Link href="blog-2"><a>Blog</a></Link>
+                                        {/* <li >
+                                            <Link href="blog-2"><a>Blog</a></Link> */}
                                             {/* <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/blog-1"><a className="closer"><i className="fi fi-rr-edit" />Blog Archive - 1</a></Link>
@@ -137,7 +137,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                     <Link href="/blog-single"><a><i className="fi fi-rr-document-signed" />Blog Single</a></Link>
                                                 </li>
                                             </ul> */}
-                                        </li>
+                                        {/* </li> */}
                                         {/* <li >
                                             <a href="#">Shop</a>
                                             <ul className="sub-menu">
