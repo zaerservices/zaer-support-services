@@ -34,22 +34,22 @@ function Home() {
                     <div className="container">
                         <div className="row justify-content-md-center">
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-1.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/reliable.png" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-2.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/care.png" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-3.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/integrity.png" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-4.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/dedication.png" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-5.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/reliable.png" /></a></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-6.svg" /></a></Link>
+                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/care.png" /></a></Link>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@ function Home() {
                 <div className="section-box">
                     <div className="container mt-120">
                         <div className="row">
-                            <div className="col-xl-5 col-lg-6 col-sm-12 mb-30"><img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage6/img-1.png" alt="Agon" /></div>
+                            <div className="col-xl-5 col-lg-6 col-sm-12 mb-30"><img className="bdrd-16 img-responsive" src="assets/imgs/template/section.jpg" alt="Agon" /></div>
                             <div className="col-xl-7 col-lg-6 col-sm-12 block-we-do"><span className="tag-1 bg-green-900">What We Do, What You Get</span>
                                 <h3 className="text-heading-1 mt-20">NDIS Care Support with  Z<span className="color-green-900">A</span>
                                     ER Support Services</h3>
@@ -252,10 +252,10 @@ function Home() {
                             <div className="col-lg-4 col-sm-12">
                                 <div className="card-grid-1 bg-5 bg-business hover-up">
                                     <div className="grid-1-img">
-                                        <img src="/assets/imgs/template/icon2.svg" alt="Agon" />
+                                        <img src="/assets/imgs/template/icon1.png" alt="Agon" />
                                     </div>
                                     <h3 className="text-heading-3 mt-20">
-                                    Enabling Opportunities
+                                    Facilitating opportunities
                                     </h3>
                                     <p className="text-body-excerpt mt-20">
                                         You are always welcome to visit our little
@@ -272,10 +272,10 @@ function Home() {
                             <div className="col-lg-4 col-sm-12">
                                 <div className="card-grid-1 bg-9 bg-local hover-up">
                                     <div className="grid-1-img">
-                                        <img src="assets/imgs/template/icon1.png" alt="Agon" />
+                                        <img src="assets/imgs/template/icon2.png" alt="Agon" />
                                     </div>
                                     <h3 className="text-heading-3 mt-20">
-                                    Supporting Independence
+                                    Supporting Freedom
                                     </h3>
                                     <p className="text-body-excerpt mt-20">
                                         You are always welcome to visit our little

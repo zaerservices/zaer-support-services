@@ -2,6 +2,19 @@ import Layout from "../components/layout/Layout";
 
 
 function Contact() {
+    async function handleOnSubmit(e){
+        e.preventDefault();
+        const formData = {}
+        Array.from(e.currentTarget.elements).forEach(field =>{
+            if (!field.name) return
+            formData[field.name] = field.value
+        })
+        fetch('/api/mail', {
+            method:'post',
+            body:JSON.stringify(formData)
+        })
+        console.log(formData)
+    }
     return (
         <>
             <Layout>
@@ -32,26 +45,28 @@ function Contact() {
                                     <p className="text-body-text color-gray-600">Tarneit<br />Victoria</p>
                                     <p className="text-body-text color-gray-600">support@zaer.com</p>
                                 </div>
-                                <div className="col-lg-8">
-                                    <div className="row">
-                                        <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Enter your name" /></div>
+                                <form action="post" onSubmit={handleOnSubmit}>
+                                    <div className="col-lg-8">
+                                        <div className="row">
+                                            <div className="col-lg-6">
+                                                <div className="form-group"><input className="form-control"  placeholder="Enter your name" name="name" /></div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group"><input className="form-control"  placeholder="Comapy (optioanl)" name="company" /></div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group"><input className="form-control"  placeholder="Your email"  name="email" /></div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group"><input className="form-control"  placeholder="Phone number" name="phone" /></div>
+                                            </div>
+                                            <div className="col-lg-12">
+                                                <div className="form-group"><textarea className="form-control" placeholder="Enter your message"  name="message" /></div>
+                                            </div>
+                                            <div className="col-lg-12 mt-15"><button className="btn btn-black  mr-40 mb-20" type="submit">Send Message</button><br className="d-lg-none d-block" /><span className="text-body-text-md color-gray-500 mb-20">By clicking contact us button, you agree our terms and policy,</span></div>
                                         </div>
-                                        <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Comapy (optioanl)" /></div>
-                                        </div>
-                                        <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Your email" /></div>
-                                        </div>
-                                        <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Phone number" /></div>
-                                        </div>
-                                        <div className="col-lg-12">
-                                            <div className="form-group"><textarea className="form-control" placeholder="How can we help you"  /></div>
-                                        </div>
-                                        <div className="col-lg-12 mt-15"><button className="btn btn-black  mr-40 mb-20" type="submit">Send Message</button><br className="d-lg-none d-block" /><span className="text-body-text-md color-gray-500 mb-20">By clicking contact us button, you agree our terms and policy,</span></div>
                                     </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>

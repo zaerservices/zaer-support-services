@@ -9,7 +9,7 @@ function HouseTask() {
             <Layout>
                 <div>
                     <section className="section-box">
-                        <div className="banner-hero banner-head-image" style={{ background: 'url(assets/imgs/template/disable.jpg)' }}>
+                        <div className="banner-hero banner-head-image" style={{ background: 'url(assets/imgs/template/single1.jpg)' }}>
                             <div className="container">
                                 
                                     <h1 className="text-heading-1 color-white mt-30">House Hold Task</h1>
