@@ -265,7 +265,7 @@ function Home() {
                                         vibe.
                                     </p>
                                     <div className="mt-30">
-                                        <Link href="/page-about-1"><a className="btn btn-default btn-white ">Learn more</a></Link>
+                                        <Link href="/page-about"><a className="btn btn-default btn-white ">Learn more</a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -285,7 +285,7 @@ function Home() {
                                         vibe.
                                     </p>
                                     <div className="mt-30">
-                                        <Link href="/page-about-2"><a className="btn btn-default btn-white ">Learn more</a></Link>
+                                        <Link href="/page-about"><a className="btn btn-default btn-white ">Learn more</a></Link>
                                     </div>
                                 </div>
                             </div>
@@ -305,7 +305,7 @@ function Home() {
                                         vibe.
                                     </p>
                                     <div className="mt-30">
-                                        <Link href="/page-about-3"><a className="btn btn-default btn-white ">Learn more</a></Link>
+                                        <Link href="/page-about"><a className="btn btn-default btn-white ">Learn more</a></Link>
                                     </div>
                                 </div>
                             </div>
