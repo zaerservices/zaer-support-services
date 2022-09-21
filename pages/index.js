@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
-
+import Head from 'next/head'
 import Banner from "../components/layout/Banner";
 import Cards from "../components/layout/Cards";
 import PageData from '../data/pageData.json'
@@ -27,6 +27,14 @@ function Home() {
             {/* <Link href="/#">
                 <a>Link</a></Link>
             </Link> */}
+            <Head>
+                <title>My page title</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta property="og:title" content="My new title" key="title" />
+                <meta name="description" content="Zaer Support Services is a leading registered NDIS provider in Melbourne, offering
+
+                    a range of services to people with disability and their families or guardians. " key="description" />
+            </Head>
             <Layout>
             <Banner/>
             <section>
