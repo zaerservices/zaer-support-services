@@ -22,11 +22,7 @@ function Contact() {
                     <div className="banner-hero banner-breadcrums">
                         <div className="container text-center">
                             <h1 className="text-heading-2 color-gray-1000 mb-20">Contact Us</h1>
-                            <p className="text-body-text color-gray-500">We understand the challenges 
-                                    that you may face on a daily basis, and are dedicated to providing the service<br className="d-lg-block d-none" />
-                                     you need to live a fulfilling life. We offer a range of disability services tailored 
-                                     to suit your individual needs. <br className="d-lg-block d-none" /> Whether you're living with autism or wheelchair bound,
-                                      we have a range of support services for you.</p>
+                            <h3 className="text-heading-6 color-gray-500">Zaer Support Services: your friend in need.</h3>
                         </div>
                     </div>
                 </section>
@@ -80,7 +76,7 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="container mt-100">
+                    {/* <div className="container mt-100">
                         <div className="row">
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="list-icons hover-up">
@@ -107,7 +103,7 @@ function Contact() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
 
             </Layout>

@@ -10,7 +10,7 @@ const Footer = () => {
                             <div className="col-md-4 col-sm-6 text-center text-md-start">
                                 <Link href="/">
                                     <a>
-                                        <img alt="Agon" src="/assets/imgs/template/logo2.png" />
+                                        <img alt="Zaer Logo" src="/assets/imgs/template/logo2.png" />
                                     </a>
                                 </Link>
                                 

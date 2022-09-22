@@ -16,7 +16,7 @@ function About3() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12 text-center">
-                                    <h1 className="text-display-2 color-gray-900">Our Story</h1>
+                                    <h1 className="text-display-2 color-gray-900">About Us</h1>
                                     <p className="text-heading-4 color-gray-600 mt-40">Zaer Support Services is a disability support services provider based in Tarneit, Victoria. The company is established with the sole aim of offering support that always puts participants first.NDIS Care Support with Zaer
 The National Disability Insurance Scheme (NDIS) is a ground-breaking Australian Government initiative that provides support to Australians living with a permanent or long-term disability.</p>
                                 </div>
@@ -43,10 +43,15 @@ The National Disability Insurance Scheme (NDIS) is a ground-breaking Australian 
                         <div className="row">
                             <div className="col-lg-1 col-sm-1 col-12" />
                             <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                <h2 className="text-heading-1 color-gray-900 mb-10">Ending your search for NDIS care
-Enabling Independence</h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">Zaer Disability Support - Your NDIS care support provider
-We're here to provide you with the best in class NDIS care support. We endeavour your care freedom and respect, and make sure that you're always empowered in your choices.</p>
+                                         <h2 className="text-heading-1 color-gray-900 mb-10">Ending your search for NDIS care
+                                                Enabling Independence
+                                         </h2>
+                                                <p className="text-body-lead-large color-gray-600 mt-20">Zaer Disability Support - Your NDIS care support provider.
+                                                 We understand the challenges that you may face on a daily basis, and are dedicated to providing the service
+                                                you need to live a fulfilling life. We offer a range of disability services tailored to suit your individual needs.
+                                                Whether you're living with autism or wheelchair bound, we have a range of support services for you.
+                                                It is our goal to provide you with the best care support under the NDIS Care Plan. We strive to provide you with the best
+                                                possible care, freedom, and respect, and make sure that you're always empowered in your choices. We’ll be with you every step of the way</p>
                             </div>
                             <div className="col-lg-1 col-sm-1 col-12" />
                         </div>

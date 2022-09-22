@@ -28,12 +28,13 @@ function Home() {
                 <a>Link</a></Link>
             </Link> */}
             <Head>
-                <title>My page title</title>
+                <title>Zaer Support Services</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <meta property="og:title" content="My new title" key="title" />
+                <meta property="og:title" content="Zaer Support Services" key="title" />
                 <meta name="description" content="Zaer Support Services is a leading registered NDIS provider in Melbourne, offering
 
                     a range of services to people with disability and their families or guardians. " key="description" />
+                    <link rel="icon" href="/assets/imgs/template/logo2.png"/>
             </Head>
             <Layout>
             <Banner/>
@@ -42,22 +43,28 @@ function Home() {
                     <div className="container">
                         <div className="row justify-content-md-center">
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/reliable.png" /></a></Link>
+                                <Link href="/services"><a className="item-logo box-hover-shadow hover-up"><img alt="Zaer services Icons" src="assets/imgs/template/community_support.png" /></a></Link>
+                                <h5>Community Support</h5>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/care.png" /></a></Link>
+                                <Link href="/services"><a className="item-logo box-hover-shadow hover-up"><img alt="Zaer services Icons" src="assets/imgs/template/ndis_plan.png" /></a></Link>
+                                <h5>Multicultural</h5>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/integrity.png" /></a></Link>
+                                <Link href="/services"><a className="item-logo box-hover-shadow hover-up"><img alt="Zaer services Icons" src="assets/imgs/template/support_coordination.png" /></a></Link>
+                                <h5>Support Coordination</h5>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/dedication.png" /></a></Link>
+                                <Link href="/services"><a className="item-logo box-hover-shadow hover-up"><img alt="Zaer services Icons" src="assets/imgs/template/star_hand.png" /></a></Link>
+                                <h5>Personal Care</h5>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/reliable.png" /></a></Link>
+                                <Link href="/services"><a className="item-logo box-hover-shadow hover-up"><img alt="Zaer services Icons" src="assets/imgs/template/ndis.png" /></a></Link>
+                                <h5>Registered NDIS Provider</h5>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#"><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/care.png" /></a></Link>
+                                <Link href="/services"><a className="item-logo box-hover-shadow hover-up"><img alt="Zaer services Icons" src="assets/imgs/template/notepad.png" /></a></Link>
+                                <h5>Get your plan Underway</h5>
                             </div>
                         </div>
                     </div>
@@ -193,11 +200,12 @@ function Home() {
                                 <div className="col-lg-2 col-sm-1 col-12" />
                                 <div className="col-lg-8 col-sm-10 col-12 text-center mt-70">
                                     <h2 className="text-heading-1 color-gray-900">
-                                        How can we help your NDIS Journey?
+                                    We know that your NDIS journey has unique challenges
                                     </h2>
                                     <p className="text-body-lead-large color-gray-600 mt-20">
-                                    As a certified NDIS provider, we are here to support you with a wide range of quality 
-                                    programs that blend towards learning, development, and community access
+                                    A certified NDIS provider you can rely on.
+                                     We provide personally-led support and ensure that we understand your needs. 
+                                     Providing quality programs is what we do best.
                                     </p>
                                 </div>
                                 <div className="col-lg-2 col-sm-1 col-12" />
@@ -266,11 +274,10 @@ function Home() {
                                     Facilitating opportunities
                                     </h3>
                                     <p className="text-body-excerpt mt-20">
-                                        You are always welcome to visit our little
-                                        den. Professional in teir craft! All
-                                        products were super amazing with strong
-                                        attension to details, comps and overall
-                                        vibe.
+                                    You're never too old for your dreams!
+
+                                    And we believe in creating opportunities for you 
+                                    to pursue them, so that you can live a life of your choosing
                                     </p>
                                     <div className="mt-30">
                                         <Link href="/page-about"><a className="btn btn-default btn-white ">Learn more</a></Link>
@@ -286,11 +293,10 @@ function Home() {
                                     Supporting Freedom
                                     </h3>
                                     <p className="text-body-excerpt mt-20">
-                                        You are always welcome to visit our little
-                                        den. Professional in teir craft! All
-                                        products were super amazing with strong
-                                        attension to details, comps and overall
-                                        vibe.
+                                    At Zaer Support Services, We understand the
+                                     challenges that you may face on a daily basis, and we are dedicated to 
+                                     providing the service you need to live a fulfilling life.
+
                                     </p>
                                     <div className="mt-30">
                                         <Link href="/page-about"><a className="btn btn-default btn-white ">Learn more</a></Link>
@@ -306,11 +312,9 @@ function Home() {
                                     Cultural & Linguistic Diversity
                                     </h3>
                                     <p className="text-body-excerpt mt-20">
-                                        You are always welcome to visit our little
-                                        den. Professional in teir craft! All
-                                        products were super amazing with strong
-                                        attension to details, comps and overall
-                                        vibe.
+                                    Our community is diverse and we are dedicated to serving 
+                                    every single one. Offering treatment and care to those who 
+                                    want it while advocating for the human rights of all our members!
                                     </p>
                                     <div className="mt-30">
                                         <Link href="/page-about"><a className="btn btn-default btn-white ">Learn more</a></Link>
