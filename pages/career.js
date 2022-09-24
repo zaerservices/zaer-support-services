@@ -28,14 +28,14 @@ function Career() {
                         </div>
                     </div>
                 </section>
-               <div className="section-box mt-50">
+               <div className="section-box ">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1" />
                             <div className="col-lg-10">
                                 <div className="box-image">
-                                        <a className="popup-youtube btn-play-video btn-play-middle" onClick={() => setOpen(true)}></a>
-                                    <img className="img-responsive bdrd-16" src="assets/imgs/page/career/img.png" alt="Agon" /></div>
+                                       
+                                    <img className="img-responsive bdrd-16" src="assets/imgs/template/career.jpg" alt="Agon" /></div>
                             </div>
                             <div className="col-lg-1" />
                         </div>
