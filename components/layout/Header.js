@@ -20,7 +20,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             <div className="header-logo">
                                 <Link href="/">
                                     <a className="d-flex">
-                                        {headerStyle ? <img alt="Agon" src="/assets/imgs/template/logo.png" /> : <img alt="Agon" src="/assets/imgs/template/logo2.png" />}
+                                        {headerStyle ? <img alt="Agon" src="/assets/imgs/template/zaer_logo.png" /> : <img alt="Agon" src="/assets/imgs/template/zaer_logo.png" />}
 
                                     </a>
                                 </Link>
@@ -123,6 +123,9 @@ const Header = ({ handleOpen, headerStyle }) => {
                                                 </li>
                                             </ul> */}
                                         </li>
+                                        <li>
+                                                    <Link href="/career"><a className="closer"><i className="fi fi-rr-briefcase" />Join Our Team</a></Link>
+                                                </li>
                                         {/* <li >
                                             <Link href="blog-2"><a>Blog</a></Link> */}
                                             {/* <ul className="sub-menu">

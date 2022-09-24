@@ -74,6 +74,9 @@ const Sidebar = ({ openClass }) => {
                                                
                                             </ul> */}
                                         </li>
+                                        <li>
+                                                    <Link href="/career"><a className="closer"><i className="fi fi-rr-briefcase" />Join Our Team</a></Link>
+                                        </li>
                                      
                                         
                                     </ul>

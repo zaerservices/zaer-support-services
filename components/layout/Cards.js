@@ -8,13 +8,13 @@ function GroupExample() {
       <Card>
         <Card.Img variant="top" src="assets/imgs/template/card1.jpg" />
         <Card.Body>
-          <Card.Title>Group/Centre Activities</Card.Title>
+          <Card.Title>Group and Centre-based Activities</Card.Title>
           <Card.Text>
-          Encouraging participants to actively participate in social, 
-          community, and recreational activities 
+          such as social outings and group and social activities on Zaer Support Services’s premises.
+ 
           </Card.Text>
             <div>
-                <Link href="/page-details/group-activities"><a className="btn btn-black text-body-lead ">Learn More</a>
+                <Link href="/page-details/group-activities"><a className="btn btn-black text-body-lead  ">Learn More</a>
                 </Link>
             </div>
         </Card.Body> 
@@ -22,12 +22,13 @@ function GroupExample() {
       <Card>
         <Card.Img variant="top" src="assets/imgs/template/card2.jpg" />
         <Card.Body>
-          <Card.Title>Participate Community</Card.Title>
+          <Card.Title>Participation in the Community</Card.Title>
           <Card.Text>
-          Help you to actively stay connected in your community and life goals.
+          Including supported shopping, medical appointments, sporting and recreational events, social activities, visiting or making new friends,
+           travel and transport and building confidence and social skills.
           </Card.Text>
             <div>
-                <Link href="/page-details/partcipate-community"><a className="btn btn-black text-body-lead ">Learn More</a>
+                <Link href="/page-details/partcipate-community"><a className="btn btn-black text-body-lead  ">Learn More</a>
                 </Link>
             </div>
         </Card.Body> 
@@ -35,12 +36,13 @@ function GroupExample() {
       <Card>
         <Card.Img variant="top" src="assets/imgs/template/card3.jpg" />
         <Card.Body>
-          <Card.Title>Household Tasks</Card.Title>
+          <Card.Title>Assistive Products for Household Tasks</Card.Title>
           <Card.Text>
-          Maintain your daily household chores with help around the house and garden.
+          Provision of products that assist people with domestic tasks in the home, such as cooking, cleaning, washing and general maintenance.
+
           </Card.Text>
             <div>
-                <Link href="/page-details/household-task"><a className="btn btn-black text-body-lead ">Learn More</a> 
+                <Link href="/page-details/household-task"><a className="btn btn-black text-body-lead  ">Learn More</a> 
                 </Link>
             </div>
         </Card.Body> 
