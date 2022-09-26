@@ -1,14 +1,34 @@
-
+import React from 'react'
 import Link from "next/link";
 import Layout from "../../components/layout/Layout";
-
+import { useEffect, useState } from "react";
+import {useRouter} from 'next/router'
+import data from '../../data/pageData.json'
 
 function GroupActivities() {
+     let Router = useRouter()
+
+    const [singlePage, setSinglePage] = useState(null);
+
+
+    const { id } = Router.query;
+
+
+    useEffect(() => {
+        setSinglePage(data.find((data) => data.id == id));
+    }, [id]);
+
+    const [activeIndex, setActiveIndex] = useState(1);
+
+    const handleOnClick = (index) => {
+        setActiveIndex(index); // remove the curly braces
+    };
     return (
         <>
             <Layout>
+            {singlePage && (
                 <div>
-                    <section className="section-box">
+                    {/* <section className="section-box">
                         <div className="banner-hero banner-head-image" style={{ background: 'url(assets/imgs/template/single2.jpg)' }}>
                             <div className="container">
                                 
@@ -16,7 +36,30 @@ function GroupActivities() {
                                 </div>
                             </div>
                        
-                    </section>
+                    </section> */}
+                    <div className="section-box bg-7 mt-50">
+                    <div className="container mt-100 mb-50">
+                        <div className="row">
+                        <div className="col-lg-6 col-sm-12 block-we-do-2">
+                            <h3 className="text-heading-2 mt-30"> {singlePage.title}</h3>
+                            <p className="text-body-lead-large color-gray-600 mt-30">{singlePage.body}</p>
+                            {/* <div className="list-icons mt-40">
+                            <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".1s"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-work.svg" /></span>
+                                <h4 className="text-heading-4">Best Price Guarantee</h4>
+                                <p className="text-body-excerpt color-gray-600 mt-15">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
+                            </div>
+                            <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".3s"><span className="icon-left"><img  src="/assets/imgs/page/homepage2/icon-design.svg" /></span>
+                                <h4 className="text-heading-4">Easy &amp; Quick Booking</h4>
+                                <p className="text-body-excerpt color-gray-600 mt-15">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
+                            </div>
+                            </div> */}
+                        </div>
+                        <div className="col-lg-6 col-sm-12 block-img-we-do img-bottom">
+                            <div className="inner-image"><img className="img-responsive" src={singlePage.img} /></div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
                     <section className="section-box mt-50 mb-50">
                         <div className="container">
                             <div className="row">
@@ -24,7 +67,7 @@ function GroupActivities() {
                                
                             </div>
                            
-                            <div className="row">
+                            {/* <div className="row">
                                 <div className="col-lg-2" />
                                 <div className="col-lg-8">
                                     <div className="single-detail mt-50">
@@ -49,11 +92,11 @@ function GroupActivities() {
                                     </div>
                                    
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </section>
                 </div>
-
+                )}
             </Layout>
 
         </>

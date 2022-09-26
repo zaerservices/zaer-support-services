@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
+import React from 'react'
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";

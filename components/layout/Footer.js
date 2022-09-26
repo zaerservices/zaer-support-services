@@ -175,7 +175,7 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-md-6">
                                 <span className="color-gray-400 text-body-lead">© ZAER Support Services 2022</span>
-                                <Link href="/page-terms2">
+                                <Link href="/privacy">
                                     <a className="text-body-text color-gray-400 ml-50">Privacy policy</a>
                                 </Link>
                                 {/* <Link href="/page-terms">

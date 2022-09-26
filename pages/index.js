@@ -1,14 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
-import dynamic from "next/dynamic";
+import React from 'react'
+
 import Link from "next/link";
 import { useState } from "react";
 import Head from 'next/head'
 import Banner from "../components/layout/Banner";
-import Cards from "../components/layout/Cards";
-import PageData from '../data/pageData.json'
+
 
 import Layout from "../components/layout/Layout";
+import NewCard from "../components/layout/NewCard";
+
+
 
 // const ModalVideo = dynamic(import("react-modal-video"), {
 //     ssr: false,
@@ -37,8 +40,8 @@ function Home() {
                     <link rel="icon" href="/assets/imgs/template/logo2.png"/>
             </Head>
             <Layout>
-            <Banner/>
-            <section>
+                <Banner/>
+                <section>
                  <div className="section-box overflow-visible mt-70">
                     <div className="container">
                         <div className="row justify-content-md-center">
@@ -77,12 +80,12 @@ function Home() {
                                 <div className="col-lg-7">
                                     <h1 className="text-display-2">
                                     Z<span className="color-green-900">A</span>ER 
-                                        <span className="color-green-900"> Support Services </span>
+                                        <span className="color-green-900"> Support Services, </span>
                                         your NDIS care support provider
                                     </h1>
                                     <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                                    Zaer Support Services we provide a range of disability services. 
-                                    In doing so we aim to make a difference in the lives of those living with a disability. 
+                                    In Zaer Support Services we provide a range of disability services 
+                                    by aiming to make a difference in the lives of those living with disability. 
                                     The goal is to make each of our participants’ lives easier, fairer, and make sure that you're
                                      always empowered in your choices..
                                     </p>
@@ -172,20 +175,20 @@ function Home() {
                                 <h3 className="text-heading-1 mt-20">NDIS Care Support with  Z<span className="color-green-900">A</span>
                                     ER Support Services</h3>
                                 <p className="text-body-lead-large color-gray-600 mt-30">
-                                The company is established with the sole aim of offering
+                                Zaer Support Services sis established with the sole aim of offering
                                  support that always puts participants first.</p>
                                 <div className="row mt-20">
                                     <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                                        <h4 className="text-heading-6 icon-leaf"> Professional, Upholding ethics</h4>
+                                        <h4 className="text-heading-6 icon-leaf"> Ethically Unwavering Professionals</h4>
                                     </div>
                                     <div className="col-lg-6 col-sm-6 col-12 mt-20">
                                         <h4 className="text-heading-6 icon-leaf">Get your NDIS Plan underway</h4>
                                     </div>
                                     <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                                        <h4 className="text-heading-6 icon-leaf">Working with you to achieve your goals</h4>
+                                        <h4 className="text-heading-6 icon-leaf">Unique Needs Met with Unique Services</h4>
                                     </div>
                                     <div className="col-lg-6 col-sm-6 col-12 mt-20">
-                                        <h4 className="text-heading-6 icon-leaf"> Passionate and qualified team members</h4>
+                                        <h4 className="text-heading-6 icon-leaf"> Passionate and Qualified Team Members</h4>
                                     </div>
                                 </div>
                             </div>
@@ -203,22 +206,29 @@ function Home() {
                                     We know that your NDIS journey has unique challenges
                                     </h2>
                                     <p className="text-body-lead-large color-gray-600 mt-20">
-                                    A certified NDIS provider you can rely on.
-                                     We provide personally-led support and ensure that we understand your needs. 
-                                     Providing quality programs is what we do best.
+                                    Zaer, a certified NDIS provider that you can rely on. We
+                                    provide personally-led support designed to meet your
+                                    unique needs and conditions. Our qualified
+                                    professionals will make sure that we deliver our
+                                    services at utmost professional way with our personal
+                                    care and compassion.
                                     </p>
                                 </div>
-                                <div className="col-lg-2 col-sm-1 col-12" />
-                                <div className="container mt-70">
-                                <Cards/>
-
                               
-                            </div>
-                            </div>
+                                        <div className="container-box">
 
-                            </div> 
+                                        <NewCard
+                                        
+                                        />
+                                        </div>
+                                               
+                                     </div>
+                                    </div>
+                                    </div>
+
                             
-                        </div>
+                            
+                      
                    
                     
                 </section>
@@ -256,8 +266,9 @@ function Home() {
                                 What We Offer
                                 </h2>
                                 <p className="text-body-lead-large color-gray-600 mt-20">
-                                We are an experienced team of passionate professionals who uphold the highest standards of ethical care.
-                                     With many years of combined experience, we believe in empowerment, dignity and accountability.
+                                We have a diverse community dedicated to serve every single one of you.
+                                Our services are designed with care and compassion to meet your unique
+                                needs and conditions with utmost dedication and passion.
                                 </p>
                             </div>
                             <div className="col-lg-2 col-sm-1 col-12" />

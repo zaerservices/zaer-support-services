@@ -1,21 +1,104 @@
 [
     {
       "id": 0,
-      "img": "assets/imgs/template/card370x160.jpg",
-      "title":"Group/Centre Activities",
-      "body": "Encouraging participants to actively participate in social, community, and recreational activities"
+      "img": "",
+      "title":"Assistive Products for Personal Care and Safety",
+      "body": "Provision of products designed to maximise an individuals care and personal safety, such as beds and pressure mattresses, bathroom equipment, continence needs and specialised clothing."
     },
     {
         "id": 1,
-        "img": "assets/imgs/template/card370x160.jpg",
-        "title":"Participate Community",
-        "body": "Help you to actively stay connected in your community and life goals."
+        "img": "/assets/imgs/template/card370x160.jpg",
+        "title":"Personal Mobility Equipment",
+        "body": "Provision of products that enable people physical mobility, such as wheelchairs, transfer aids and walking equipment."
       },
       {
         "id": 2,
-        "img": "assets/imgs/template/card370x160.jpg",
-        "title":"Household Tasks",
-        "body": "Maintain your daily household chores with help around the house and garden."
+        "img": "/assets/imgs/template/card370x160.jpg",
+        "title":"Assistance with Life Stage Transitions and Support ",
+        "body": "Including mentoring, peer support, individual skill development, and decision making to support people to make transitions on their terms and in a way that meets their goals and aspirations"
+      },
+      {
+        "id": 3,
+        "img":"",
+        "title":"Assistance with Daily Personal Activities",
+        "body":"To enable people to live as autonomously as possible – such as personal hygiene, dressing, medication assistance, financial management, communication skills and lifestyle mentoring."
+      },
+      {
+        "id": 4,
+        "img":"/assets/imgs/template/card370x160.jpg",
+        "title":"Assistance with Travel and Transport ",
+        "body":"Provision of travel arrangements and support for people to access essential services."
+      },
+      {
+        "id": 5,
+        "img":"",
+        "title":"Assistive Equipment for Recreation",
+        "body":"Provision products that assist people when engaging in recreational pursuits (e.g., sport, exercise/fitness)."
+      },
+      {
+        "id": 6,
+        "img":"",
+        "title":"Vision Equipment ",
+        "body":"Products designed to assist people to navigate and maintain physical orientation, such as magnifiers, note-taking equipment, braille and guide dogs."
+      },
+      {
+        "id": 7,
+        "img":"",
+        "title":"Assistance with Daily Tasks in a Group or Shared Living",
+        "body":"Arrangements to assist individuals with or to supervise tasks of daily living in a shared living environment, which is either temporary or ongoing and designed to develop the skills of the individual to live as autonomously as possible."
+      },
+      {
+        "id": 8,
+        "img":"/assets/imgs/template/card370x160.jpg",
+        "title":"Innovative Community Participation",
+        "body":"Where individuals are supported to participate in mainstream community-based activities that are open to all members of the community."
+      },
+      {
+        "id": 9,
+        "img":"",
+        "title":"Development of Daily Living and Life Skills",
+        "body":"Including developmental-focused activities and training to enhance the person/’s ability to live as independent an everyday life as possible."
+      },
+      {
+        "id": 10,
+        "img":"",
+        "title":"Assistance with Household Tasks",
+        "body":"Such as meal preparation and delivery, house or yard maintenance, cleaning and laundry "
+      },
+      {
+        "id": 11,
+        "img":"",
+        "title":"Hearing Equipment",
+        "body":" Provision of assistive listening devices (excluding hearing aids)."
+      },
+      {
+        "id": 12,
+        "img":"/assets/imgs/template/card370x160.jpg",
+        "title":"Assistive Products for Household Tasks",
+        "body":"Provision of products that assist people with domestic tasks in the home, such as cooking, cleaning, washing and general maintenance."
+      },
+      {
+        "id": 13,
+        "img":"",
+        "title":"Communication and Information Equipment ",
+        "body":"Provision of products to assist people in accessing written or spoken communication through electronic means, as well as to access alternative forms of communication."
+      },
+      {
+        "id": 14,
+        "img":"",
+        "title":"Participation in the Community",
+        "body":"Including supported shopping, medical appointments, sporting and recreational events, social activities, visiting or making new friends, travel and transport and building confidence and social skills."
+      },
+      {
+        "id": 15,
+        "img":"/assets/imgs/template/card370x160.jpg",
+        "title":"Group and Centre-based Activities",
+        "body":"Such as social outings and group and social activities on Zaer Support Services’s premises."
       }
+      
+      
+      
+      
+      
       
 ]

@@ -124,7 +124,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul> */}
                                         </li>
                                         <li>
-                                                    <Link href="/career"><a className="closer"><i className="fi fi-rr-briefcase" />Join Our Team</a></Link>
+                                                    <Link href="/career"><a className="closer"><i className="fi fi-rr-briefcase white" />Join Our Team</a></Link>
                                                 </li>
                                         {/* <li >
                                             <Link href="blog-2"><a>Blog</a></Link> */}

@@ -1,6 +1,6 @@
-
+import React from 'react'
 import Layout from "../components/layout/Layout";
-import Cards from "../components/layout/Cards";
+import NewCard from "../components/layout/NewCard";
 
 
 function Services() {
@@ -98,7 +98,7 @@ function Services() {
                                 </div>
                                 <div className="col-lg-2 col-sm-1 col-12" />
                                 <div className="container mt-70">
-                                <Cards/>
+                                <NewCard/>
 
                               
                             </div>
