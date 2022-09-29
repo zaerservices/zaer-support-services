@@ -106,21 +106,21 @@ function GroupActivities() {
                     <li className="icon-asset3">
                         <div className="text-center block-step bg-5 hover-up">
                         <div className="mb-30"><img src="/assets/imgs/template/goals.png" /></div>
-                        <h3 className="text-heading-5 mb-10">Determine The Goals</h3>
+                        <h3 className="text-heading-5 mb-10">Decide on the goals</h3>
                         
                         </div>
                     </li>
                     <li className="icon-asset4">
                         <div className="text-center block-step bg-5 hover-up">
                         <div className="mb-30"><img src="/assets/imgs/template/enjoy.png" /></div>
-                        <h3 className="text-heading-5 mb-10">Enjoy the life you deserve</h3>
+                        <h3 className="text-heading-5 mb-10">Live life to the fullest</h3>
                        
                         </div>
                     </li>
                     <li>
                         <div className="text-center block-step bg-9 hover-up">
-                        <div className="mb-30"><img src="/assets/imgs/template/ndis.png" /></div>
-                        <h3 className="text-heading-5 mb-10">Develop a NDIS Care Plan</h3>
+                        <div className="mb-30"><img src="/assets/imgs/template/ndis2.png" /></div>
+                        <h3 className="text-heading-5 mb-10">Prepare a NDIS care plan</h3>
                         
                         </div>
                     </li>

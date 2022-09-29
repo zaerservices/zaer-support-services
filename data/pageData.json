@@ -3,7 +3,7 @@
       "id": 0,
       "img": "/assets/imgs/template/assist_product.jpg",
       "title":"Assistive Products for Personal Care and Safety",
-      "body": "Provision of products designed to maximise an individuals care and personal safety, such as beds and pressure mattresses, bathroom equipment, continence needs and specialised clothing.",
+      "body": "Help transform the lives of disabled people by ensuring they have access to the right support, advice and products. We provide a wide range of products to ensure our customers have everything they need to live as independently as possible. Provision of products designed to maximise an individuals care and personal safety, such as beds and pressure mattresses, bathroom equipment, continence needs and specialised clothing.",
       "image": "/assets/imgs/template/assist_daily.jpg"
       
      
@@ -12,92 +12,107 @@
         "id": 1,
         "img": "/assets/imgs/template/card4.jpg",
         "title":"Personal Mobility Equipment",
-        "body": "Providing disability support to people of all ages and abilities. We provide a range of products to help people with physical disabilities and impairments to improve their quality of life. Provision of products that enable people physical mobility, such as wheelchairs, transfer aids and walking equipment."
+        "body": "Providing disability support to people of all ages and abilities. We provide a range of products to help people with physical disabilities and impairments to improve their quality of life. Provision of products that enable people physical mobility, such as wheelchairs, transfer aids and walking equipment. We provide solutions to assist in everyday activities such as going grocery shopping or attending school. And we are always looking for ways to improve our range of products and services- so you can always find what you need from us. Zaer is dedicated to making life better. Our mission is to help people live their lives without any limitation or restriction",
+        "image": "/assets/imgs/template/personal_mobility2.jpg"
        
       },
       {
         "id": 2,
         "img": "/assets/imgs/template/assistant_life_stage.jpg",
         "title":"Assistance with Life Stage Transitions and Support ",
-        "body": "Including mentoring, peer support, individual skill development, and decision making to support people to make transitions on their terms and in a way that meets their goals and aspirations"
+        "body": "When life isn't going as planned, Zaer is here to help you find the strength to take your next steps. Including mentoring, peer support, individual skill development, and decision making to support people to make transitions on their terms and in a way that meets their goals and aspirations. Zaer support services programs with an evidence-based approach that helps people through the challenging life stage transitions",
+        "image": "/assets/imgs/template/life_stage2.jpg"
       },
       {
         "id": 3,
         "img":"/assets/imgs/template/community_partcipate.jpg",
         "title":"Assistance with Daily Personal Activities",
-        "body":"To enable people to live as autonomously as possible – such as personal hygiene, dressing, medication assistance, financial management, communication skills and lifestyle mentoring."
+        "body":"To enable people to live as autonomously as possible – such as personal hygiene, dressing, medication assistance, financial management, communication skills and lifestyle mentoring.",
+        "image": "/assets/imgs/template/assist_personal_care2.jpg"
       },
       {
         "id": 4,
         "img":"/assets/imgs/template/assistant_travel.jpg",
         "title":"Assistance with Travel and Transport ",
-        "body":"Provision of travel arrangements and support for people to access essential services."
+        "body":"Get on the road with Zaer. Provision of travel arrangements and support for people to access essential services. Zaer support services working to create a more inclusive society. We do this by helping people with disability use public and private transport. The Assist Travel and Transport program can help you get to appointments, events and other important activities. You can also use the service for medical appointments, education and employment. Browse our website or chat with one of our staff members to find out how we can assist in your transport needs.",
+        "image": "/assets/imgs/template/assist_travel2.jpg"
       },
       {
         "id": 5,
         "img":"/assets/imgs/template/card7.jpg",
         "title":"Assistive Equipment for Recreation",
-        "body":"Provision products that assist people when engaging in recreational pursuits (e.g., sport, exercise/fitness)."
+        "body":"Provision products that assist people when engaging in recreational pursuits (e.g., sport, exercise/fitness).",
+        "image": "/assets/imgs/template/assist_recreation2.jpg"
       },
       {
         "id": 6,
         "img":"/assets/imgs/template/vision_equipment.jpg",
         "title":"Vision Equipment ",
-        "body":"Products designed to assist people to navigate and maintain physical orientation, such as magnifiers, note-taking equipment, braille and guide dogs."
+        "body":"Products designed to assist people to navigate and maintain physical orientation, such as magnifiers, note-taking equipment, braille and guide dogs.",
+        "image": "/assets/imgs/template/vision2.jpg"
       },
       {
         "id": 7,
         "img":"/assets/imgs/template/daily_shared.jpg",
         "title":"Assistance with Daily Tasks in a Group or Shared Living",
-        "body":"Arrangements to assist individuals with or to supervise tasks of daily living in a shared living environment, which is either temporary or ongoing and designed to develop the skills of the individual to live as autonomously as possible."
+        "body":"Arrangements to assist individuals with or to supervise tasks of daily living in a shared living environment, which is either temporary or ongoing and designed to develop the skills of the individual to live as autonomously as possible.",
+        "image": "/assets/imgs/template/assist_daily_task2.jpg"
       },
       {
         "id": 8,
         "img":"/assets/imgs/template/innovative_community.jpg",
         "title":"Innovative Community Participation",
-        "body":"Where individuals are supported to participate in mainstream community-based activities that are open to all members of the community."
+        "body":"Inclusive communities are better communities. We want to make it easier for you to become involved in your local community, Where individuals are supported to participate in mainstream community-based activities that are open to all members of the community. We are passionate about encouraging people with disabilities to invest in their own future, and of course, the future of all other people living around them. We want to create a world where every person is listened to and given the opportunity to participate in making decisions that will shape their lives and the world around them.",
+        "image": "/assets/imgs/template/innovative_community2.jpg"
       },
       {
         "id": 9,
         "img":"/assets/imgs/template/daily_personal.jpg",
         "title":"Development of Daily Living and Life Skills",
-        "body":"Including developmental-focused activities and training to enhance the person/’s ability to live as independent an everyday life as possible."
+        "body":"Including developmental-focused activities and training to enhance the person’s ability to live as independent an everyday life as possible. Our team of specialists provide you with support to support you with the day today aspects of living with disability.Our aim is to help you make informed decisions about your health and wellbeing and to be as inependent as possbile.",
+        "image":"/assets/imgs/template/development_daily2.jpg"
       },
       {
         "id": 10,
         "img":"/assets/imgs/template/assist_household.jpg",
         "title":"Assistance with Household Tasks",
-        "body":"Such as meal preparation and delivery, house or yard maintenance, cleaning and laundry "
+        "body":"Such as meal preparation and delivery, house or yard maintenance, cleaning and laundry ",
+        "image": "/assets/imgs/template/household_taks2.jpg"
       },
       {
         "id": 11,
         "img":"/assets/imgs/template/hearing_equipment2.jpg",
         "title":"Hearing Equipment",
-        "body":" Provision of assistive listening devices (excluding hearing aids)."
+        "body":" Provision of assistive listening devices (excluding hearing aids).",
+        "image": "/assets/imgs/template/hearing2.jpg"
       },
       {
         "id": 12,
         "img":"/assets/imgs/template/card5.jpg",
         "title":"Assistive Products for Household Tasks",
-        "body":"Provision of products that assist people with domestic tasks in the home, such as cooking, cleaning, washing and general maintenance."
+        "body":"Provision of products that assist people with domestic tasks in the home, such as cooking, cleaning, washing and general maintenance.",
+        "image": "/assets/imgs/template/household_products_task2.jpg"
       },
       {
         "id": 13,
         "img":"/assets/imgs/template/card2.jpg",
         "title":"Communication and Information Equipment ",
-        "body":"Provision of products to assist people in accessing written or spoken communication through electronic means, as well as to access alternative forms of communication."
+        "body":"Provision of products to assist people in accessing written or spoken communication through electronic means, as well as to access alternative forms of communication.",
+        "image": "/assets/imgs/template/communication2.jpg"
       },
       {
         "id": 14,
         "img":"/assets/imgs/template/participation_community.jpg",
         "title":"Participation in the Community",
-        "body":"Including supported shopping, medical appointments, sporting and recreational events, social activities, visiting or making new friends, travel and transport and building confidence and social skills."
+        "body":"Including supported shopping, medical appointments, sporting and recreational events, social activities, visiting or making new friends, travel and transport and building confidence and social skills.",
+        "image": "/assets/imgs/template/participation_community2.jpg"
       },
       {
         "id": 15,
         "img":"/assets/imgs/template/group_based.jpg",
         "title":"Group and Centre-based Activities",
-        "body":"Such as social outings and group and social activities on Zaer Support Services’s premises."
+        "body":"Such as social outings and group and social activities on Zaer Support Services’s premises.",
+        "image": "/assets/imgs/template/group_activity2.jpg"
       }
       
       
