@@ -68,6 +68,66 @@ function Contact() {
                         </div>
                     </div>
                 </section>
+                
+        <div className="section-box mt-70">
+            <div className="container">
+                <div className="row">
+                <div className="col-lg-1 col-sm-1 col-12"></div>
+                <div className="col-lg-10 col-sm-10 col-12 text-center">
+                    <div className="text-center mb-20"><span className="tag-1 bg-green-900">How does it works ?</span></div>
+                    <h2 className="text-display-3 color-gray-900 mb-60">We're here for you <br className="d-lg-block d-none" />Lets Start the Journey Together</h2>
+                </div>
+                <div className="col-lg-1 col-sm-1 col-12"></div>
+                </div>
+            </div>
+            <div className="container">
+                <div className="row">
+                <div className="col-lg-1 col-sm-12 col-12"></div>
+                <div className="col-lg-10 col-sm-12 col-12">
+                    <ul className="list-steps">
+                    <li className="icon-asset1">
+                        <div className="text-center block-step bg-9 hover-up">
+                        <div className="mb-30"><img src="/assets/imgs/template/support.png" /></div>
+                        <h3 className="text-heading-5 mb-10">Get In Touch With Us</h3>
+                        {/* <p className="text-body-text color-gray-500">Choose any of our packages</p> */}
+                        </div>
+                    </li>
+                    <li className="icon-asset2">
+                        <div className="text-center block-step hover-up">
+                        <div className="mb-30"><img src="/assets/imgs/template/staff.png" /></div>
+                        <h3 className="text-heading-5 mb-10">Meet Our Friendly Staff</h3>
+                        {/* <p className="text-body-text color-gray-500">Receive concepts In 24 hours</p> */}
+                        </div>
+                    </li>
+                    <li className="icon-asset3">
+                        <div className="text-center block-step bg-5 hover-up">
+                        <div className="mb-30"><img src="/assets/imgs/template/goals.png" /></div>
+                        <h3 className="text-heading-5 mb-10">Determine The Goals</h3>
+                        {/* <p className="text-body-text color-gray-500">Development Stage</p> */}
+                        </div>
+                    </li>
+                    <li className="icon-asset4">
+                        <div className="text-center block-step bg-5 hover-up">
+                        <div className="mb-30"><img src="/assets/imgs/template/enjoy.png" /></div>
+                        <h3 className="text-heading-5 mb-10">Enjoy the life you deserve</h3>
+                        {/* <p className="text-body-text color-gray-500">After-release Support</p> */}
+                        </div>
+                    </li>
+                    <li>
+                        <div className="text-center block-step bg-9 hover-up">
+                        <div className="mb-30"><img src="/assets/imgs/template/ndis.png" /></div>
+                        <h3 className="text-heading-5 mb-10">Develop a NDIS Care Plan</h3>
+                        {/* <p className="text-body-text color-gray-500">Project launch and checkout</p> */}
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+                <div className="col-lg-1 col-sm-12 col-12"></div>
+                </div>
+            </div>
+        </div>
+
+
                 <section className="section-box mt-100">
                     <div className="container">
                         <div className="row">

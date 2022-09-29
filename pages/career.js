@@ -21,7 +21,7 @@ function Career() {
                                 <h1 className="text-display-2 color-gray-900 mt-30">Working with us,<br className="d-lg-block d-none" />the awesome team</h1>
                                 <div className="text-body-lead-large color-gray-500 mt-40">Our focus is always on finding the best people to work with. Our bar<br className="d-lg-block d-none" />is high, but you look ready to take on the challenge.</div>
                                 <div className="mt-55">
-                                    <Link href="/page-contact"><a className="btn btn-black  mb-15 mr-20">JOIN OUR TEAM</a></Link>
+                                    <a href="mailto:email@example.com"  className="btn btn-black  mb-15 mr-20" target="_blank">JOIN OUR TEAM</a>
 
                                     
                                 </div>
@@ -42,165 +42,63 @@ function Career() {
                         </div>
                     </div>
                 </div> 
-              {/* <section className="section-box">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-2 col-sm-1 col-12" />
-                            <div className="col-lg-8 col-sm-10 col-12 text-center mt-100">
-                                <h2 className="text-heading-1 color-gray-900">Join a Workplace That<br className="d-lg-block d-none" />Gives You More</h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
-                            </div>
-                            <div className="col-lg-2 col-sm-1 col-12" />
-                        </div>
-                    </div>
-                    <div className="container mt-70">
-                        <div className="row">
-                            <div className="col-lg-4 col-sm-12">
-                                <div className="card-grid-1 bg-5 hover-up">
-                                    <div className="grid-1-img"><img src="/assets/imgs/page/homepage1/business-strategy.svg" alt="Agon" /></div>
-                                    <h3 className="text-heading-3 mt-20">Design &amp; Vreatives</h3>
-                                    <p className="text-body-excerpt mt-20">You are always welcome to visit our little den. Professional in teir craft! All products were super amazing with strong attension to details, comps and overall vibe.</p>
-                                    <div className="mt-30">
-                                        <Link href="/page-service-1"><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-12">
-                                <div className="card-grid-1 bg-9 hover-up">
-                                    <div className="grid-1-img"><img src="/assets/imgs/page/homepage1/local.svg" alt="Agon" /></div>
-                                    <h3 className="text-heading-3 mt-20">Work and travel</h3>
-                                    <p className="text-body-excerpt mt-20">You are always welcome to visit our little den. Professional in teir craft! All products were super amazing with strong attension to details, comps and overall vibe.</p>
-                                    <div className="mt-30">
-                                        <Link href="/page-service-1"><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-12">
-                                <div className="card-grid-1 bg-2 hover-up">
-                                    <div className="grid-1-img"><img src="/assets/imgs/page/homepage1/social.svg" alt="Agon" /></div>
-                                    <h3 className="text-heading-3 mt-20">Smart salary</h3>
-                                    <p className="text-body-excerpt mt-20">You are always welcome to visit our little den. Professional in teir craft! All products were super amazing with strong attension to details, comps and overall vibe.</p>
-                                    <div className="mt-30">
-                                        <Link href="/page-service-1"><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-                {/* <section className="section-box mt-100">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-1 col-sm-1 col-12" />
-                            <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                <h2 className="text-heading-1 color-gray-900 mb-10">Choose the category<br className="d-lg-block d-none" />where you expert</h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">In a professional context it often happens that private or corporate<br className="d-lg-block d-none" />clients order a publication to publish news.</p>
-                            </div>
-                            <div className="col-lg-1 col-sm-1 col-12" />
-                        </div>
-                    </div>
-                    <div className="container mt-40">
-                        <div className="row">
-                            <div className="col-lg-4 col-md-12 col-sm-12">
-                                <div className="list-icons mt-40 hover-up">
-                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></span>
-                                        <h4 className="text-heading-4">Graphic designer</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12">
-                                <div className="list-icons mt-40 hover-up">
-                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" /></span>
-                                        <h4 className="text-heading-4">Web developer</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12">
-                                <div className="list-icons mt-40 hover-up">
-                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" /></span>
-                                        <h4 className="text-heading-4">Data scientistn</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12">
-                                <div className="list-icons mt-40 hover-up">
-                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></span>
-                                        <h4 className="text-heading-4">Technical Support</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12">
-                                <div className="list-icons mt-40 hover-up">
-                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" /></span>
-                                        <h4 className="text-heading-4">Digital Marketing</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12">
-                                <div className="list-icons mt-40 hover-up">
-                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" /></span>
-                                        <h4 className="text-heading-4">UI/UX designer</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
+           
+              
+                
+
+               
+
                 <section className="section-box pt-100 pb-100 mt-100 banner-hero banner-1">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-5 mb-30"><span className="tag-1 bg-6 color-gray-900">Built Exclusively For You</span>
+                            <div className="col-lg-5 mb-30">
+                            {/* <span className="tag-1 bg-6 color-gray-900">Built Exclusively For You</span> */}
                                 <h3 className="text-heading-1 mt-30">Why Our Team Is One Of The Best!</h3>
-                                <p className="text-body-lead-large color-gray-600 mt-30">There are countless great reasons to work at our company and we hate to brag, but it’s too hard not to!</p>
+                                <p className="text-body-lead-large color-gray-600 mt-30">There are countless great reasons to work at Zaer Support Services and we hate to brag, but it’s too hard not to!</p>
                                 <div className="mt-40">
-                                    <Link href="/services"><a className="btn btn-default btn-white  text-body-text">Learn More</a></Link>
+                                    <Link href="/page-about"><a className="btn btn-default btn-white  text-body-text">Learn More</a></Link>
                                 </div>
                             </div>
                             <div className="col-lg-7">
                                 <div className="row" data-masonry="{&quot;percentPosition&quot;: true }">
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
-                                            <p className="text-body-text color-gray-600 text-comment">"No matter where you go, It's is the coolest, most happening thing around! Not able to tell you how happy I am with it. "</p>
+                                            <p className="text-body-text color-gray-600 text-comment">"I have been working at Zaer for the past year and I honestly can't imagine doing anything else. It's the only company that 100% respects my skills and has paid off in more ways than I could have ever imagined.
+                                             I love coming to work every day and we're a team that is dedicated to providing the best service possible to our clients. "</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-1.png" alt="Agon" /></div>
-                                                <h4 className="text-body-lead color-gray-900 mb-5">Jane Cooper</h4>
-                                                <p className="text-body-text-md">Biffco Enterprises Ltd.</p>
+                                                <div className="img-user img-user-round"><img src="/assets/imgs/template/user_female.jpg" alt="Zaer-staff-avatar" /></div>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">Rish</h4>
+                                                {/* <p className="text-body-text-md">Biffco Enterprises Ltd.</p> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
-                                            <p className="text-body-text color-gray-600 text-comment">"Wow what great service, I love it! It's is the most valuable business resource we have EVER purchased. We can't understand how we've been living without it. I couldn't have asked for more than this."</p>
+                                            <p className="text-body-text color-gray-600 text-comment">"I am so happy I found Zaer. I’ve been looking for a work place where my unique skillset is welcomed and appreciated. The Zaer team has done just that and this is why I love working here."</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-2.png" alt="Agon" /></div>
-                                                <h4 className="text-body-lead color-gray-900 mb-5">Wade Warren</h4>
-                                                <p className="text-body-text-md">Krusty Krab</p>
+                                                <div className="img-user img-user-round"><img src="/assets/imgs/template/user_male.jpg" alt="Zaer-staff-avatar" /></div>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">Jade</h4>
+                                                {/* <p className="text-body-text-md">Krusty Krab</p> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
-                                            <p className="text-body-text color-gray-600 text-comment">"Your company is truly upstanding and is behind its product 100%. It's the perfect solution for our business. It has really helped our business. Needless to say we are extremely satisfied with the results. "</p>
+                                            <p className="text-body-text color-gray-600 text-comment">"I have been in the disability services industry for over a decade and I have never seen a company that finally gets it. Zaer is highly knowledgeable and their dedication to making services accessible to everyone is unparalleled. "</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-3.png" alt="Agon" /></div>
-                                                <h4 className="text-body-lead color-gray-900 mb-5">Leslie Alexander</h4>
-                                                <p className="text-body-text-md">Biffco Enterprises Ltd.</p>
+                                                <div className="img-user img-user-round"><img src="/assets/imgs/template/user_female.jpg" alt="Zaer-staff-avatar" /></div>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">Lianne </h4>
+                                                {/* <p className="text-body-text-md">Biffco Enterprises Ltd.</p> */}
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 card-square hover-up mb-20">
-                                            <p className="text-body-text color-gray-600 text-comment">"It's is both attractive and highly adaptable. It's exactly what I've been looking for. Definitely worth the investment."</p>
+                                            <p className="text-body-text color-gray-600 text-comment">"It's is both attractive and highly adaptable. It's exactly what I've been looking for. Just AMAZING!."</p>
                                             <div className="box-img-user">
-                                                <div className="img-user img-user-round"><img src="/assets/imgs/page/homepage2/user-4.png" alt="Agon" /></div>
-                                                <h4 className="text-body-lead color-gray-900 mb-5">Jenny Wilson</h4>
-                                                <p className="text-body-text-md">Soylent Corp</p>
+                                                <div className="img-user img-user-round"><img src="/assets/imgs/template/user_female.jpg" alt="Zaer-staff-avatar" /></div>
+                                                <h4 className="text-body-lead color-gray-900 mb-5">Rakhi</h4>
+                                                
                                             </div>
                                         </div>
                                     </div>
