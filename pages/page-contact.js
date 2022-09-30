@@ -75,7 +75,7 @@ function Contact() {
                 <div className="col-lg-1 col-sm-1 col-12"></div>
                 <div className="col-lg-10 col-sm-10 col-12 text-center">
                     <div className="text-center mb-20"><span className="tag-1 bg-green-900">How does it works ?</span></div>
-                    <h2 className="text-display-3 color-gray-900 mb-60">We are here for you <br className="d-lg-block d-none" />Lets Start the Journey Together</h2>
+                    <h2 className="text-display-3 color-gray-900 mb-60">Be your own hero <br className="d-lg-block d-none" />Live your life without limitations</h2>
                 </div>
                 <div className="col-lg-1 col-sm-1 col-12"></div>
                 </div>
