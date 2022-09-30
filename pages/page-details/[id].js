@@ -30,8 +30,9 @@ function GroupActivities() {
                 <div>
                     
 
-                    <div className="section-box   ">
+                    <div className="section-box ">
                     <div className="container mt-100 mb-50">
+                    <span className="btn btn-square" onClick={() => Router.back()}>Click here to go back</span>
                         <div className="row">
                         <div className="col-lg-6 col-sm-12 block-we-do-2">
                             <h3 className="text-heading-2 mt-30"> {singlePage.title}</h3>

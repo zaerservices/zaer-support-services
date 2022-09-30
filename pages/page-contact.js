@@ -115,14 +115,14 @@ function Contact() {
                     </li>
                     <li>
                         <div className="text-center block-step bg-9 hover-up">
-                        <div className="mb-30"><img src="/assets/imgs/template/ndis.png" /></div>
+                        <div className="mb-30"><img src="/assets/imgs/template/ndis2.png" /></div>
                         <h3 className="text-heading-5 mb-10">Develop a NDIS Care Plan</h3>
                         {/* <p className="text-body-text color-gray-500">Project launch and checkout</p> */}
                         </div>
                     </li>
                     </ul>
                 </div>
-                <div className="col-lg-1 col-sm-12 col-12"></div>
+                {/* <div className="col-lg-1 col-sm-12 col-12"></div> */}
                 </div>
             </div>
         </div>
