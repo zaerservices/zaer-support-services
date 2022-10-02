@@ -14,7 +14,7 @@ function NewCard() {
           {PageData.map((props) => {
             return (
 
-    <Card style={{ width: '18rem' }} key={props.id}>
+    <Card style={{ width: '18rem', marginLeft:'1rem' }} key={props.id}>
       <Card.Img variant="top" src={props.img} />
       <Card.Body  className="d-flex flex-column justify-content-around">
         <Card.Title>{props.title}</Card.Title>
