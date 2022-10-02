@@ -94,7 +94,7 @@ function Home() {
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
                                        
-                                        <img className="img-responsive shape-2" alt="Agon" src="assets/imgs/template/banner1.png" />
+                                        <img className="img-responsive shape-2" alt="Banner Img" src="assets/imgs/template/banner1.png" />
                                     </div>
                                 </div>
                             </div>
@@ -103,74 +103,11 @@ function Home() {
                 </section>
              
                
-                {/* <section className="section-box">
-                    <div className="container mt-100">
-                        <div className="row">
-                            <div className="col-lg-6 col-sm-12 block-img-we-do">
-                                <img className="bdrd-16 img-responsive" src="assets/imgs/page/homepage1/img-2.png" alt="Agon" />
-                            </div>
-                            <div className="col-lg-6 col-sm-12 block-we-do">
-                                <span className="tag-1 bg-green-900">What We Do, What You Get</span>
-                                <h3 className="text-heading-1 mt-30">
-                                Ending your search for <span className="color-green-900">NDIS care </span>
-                                     Enabling your Independence
-                                </h3>
-                                <p className="text-body-lead-large color-gray-600 mt-30">
-                                The company is established with the sole aim of offering
-                                 support that always puts participants first. We believe that 
-                                 every person deserves to be treated with dignity and respect.
-                                  It is for this reason that we offer a number of different 
-                                  services and offer flexible hours to meet the needs of everyone
-                                   who needs our help.
-
-                                </p>
-                                <div className="line-bd-green mt-50" />
-                                <div className="row">
-                                    <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-leaf">
-                                        Professional, Upholding ethics
-                                        </h4>
-                                        <p className="text-body-excerpt color-gray-600 mt-15">
-                                            The latest design trends meet
-                                            hand-crafted templates.
-                                        </p>
-                                    </div>
-                                    <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-leaf">
-                                        Get your NDIS Plan underway
-                                        </h4>
-                                        <p className="text-body-excerpt color-gray-600 mt-15">
-                                            The latest design trends meet
-                                            hand-crafted templates.
-                                        </p>
-                                    </div>
-                                    <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-leaf">
-                                        Working with you to achieve your goals
-                                        </h4>
-                                        <p className="text-body-excerpt color-gray-600 mt-15">
-                                            The latest design trends meet
-                                            hand-crafted templates.
-                                        </p>
-                                    </div>
-                                    <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                                        <h4 className="text-heading-6 icon-leaf">
-                                        Passionate and qualified team members
-                                        </h4>
-                                        <p className="text-body-excerpt color-gray-600 mt-15">
-                                            The latest design trends meet
-                                            hand-crafted templates.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
+                
                 <div className="section-box">
                     <div className="container mt-120">
                         <div className="row">
-                            <div className="col-xl-5 col-lg-6 col-sm-12 mb-30"><img className="bdrd-16 img-responsive" src="assets/imgs/template/section.jpg" alt="Agon" /></div>
+                            <div className="col-xl-5 col-lg-6 col-sm-12 mb-30"><img className="bdrd-16 img-responsive" src="assets/imgs/template/section.jpg" alt="Zaer section img" /></div>
                             <div className="col-xl-7 col-lg-6 col-sm-12 block-we-do"><span className="tag-1 bg-green-900">What We Do, What You Get</span>
                                 <h3 className="text-heading-1 mt-20">NDIS Care Support with  Z<span className="color-green-900">A</span>
                                     ER Support Services</h3>
@@ -279,7 +216,7 @@ function Home() {
                             <div className="col-lg-4 col-sm-12">
                                 <div className="card-grid-1 bg-5 bg-business hover-up">
                                     <div className="grid-1-img">
-                                        <img src="/assets/imgs/template/icon1.png" alt="Agon" />
+                                        <img src="/assets/imgs/template/icon1.png" alt="icons-zaer" />
                                     </div>
                                     <h3 className="text-heading-3 mt-20">
                                     Facilitating opportunities
@@ -298,7 +235,7 @@ function Home() {
                             <div className="col-lg-4 col-sm-12">
                                 <div className="card-grid-1 bg-9 bg-local hover-up">
                                     <div className="grid-1-img">
-                                        <img src="assets/imgs/template/icon2.png" alt="Agon" />
+                                        <img src="assets/imgs/template/icon2.png" alt="icons-zaer" />
                                     </div>
                                     <h3 className="text-heading-3 mt-20">
                                     Supporting Freedom
@@ -317,7 +254,7 @@ function Home() {
                             <div className="col-lg-4 col-sm-12">
                                 <div className="card-grid-1 bg-2 bg-social hover-up">
                                     <div className="grid-1-img">
-                                        <img src="assets/imgs/template/icon3.png" alt="Agon" />
+                                        <img src="assets/imgs/template/icon3.png" alt="icons-zaer" />
                                     </div>
                                     <h3 className="text-heading-3 mt-20">
                                     Cultural & Linguistic Diversity

@@ -47,7 +47,7 @@ function GroupActivities() {
                                 <p className="text-body-excerpt color-gray-600 mt-15">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</p>
                             </div>
                             </div> */}
-                            <p className="text-body-lead-large color-gray-600 mt-30">If you have any questions or would like some advice please contact our friendly team who will be happy to help you find</p>
+                            <p className="text-body-lead-large color-gray-600 mt-30"> If you have any questions or would like to seek some advice please contact our friendly team who will be happy to assist you.</p>
                         </div>
                         <div className="col-lg-6 col-sm-12 block-img-we-do img-bottom">
                             <div className="inner-image"><img className="img-responsive shape-1" src={singlePage.image} /></div>

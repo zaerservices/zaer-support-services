@@ -35,7 +35,7 @@ function About3() {
                                 <div className="box-image">
                                     {/* <a className="popup-youtube btn-play-video btn-play-middle" onClick={() => setOpen(true)}>  </a> */}
 
-                                    <img className="img-responsive bdrd-16" src="assets/imgs/template/disability1.jpg" alt="Agon" /></div>
+                                    <img className="img-responsive bdrd-16" src="assets/imgs/template/disability1.jpg" alt="zaer-about-img" /></div>
                             </div>
                             <div className="col-lg-1" />
                         </div>

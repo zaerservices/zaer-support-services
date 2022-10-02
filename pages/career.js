@@ -36,7 +36,7 @@ function Career() {
                             <div className="col-lg-10">
                                 <div className="box-image">
                                        
-                                    <img className="img-responsive bdrd-16" src="assets/imgs/template/career.jpg" alt="Agon" /></div>
+                                    <img className="img-responsive bdrd-16" src="assets/imgs/template/career.jpg" alt="career img" /></div>
                             </div>
                             <div className="col-lg-1" />
                         </div>
