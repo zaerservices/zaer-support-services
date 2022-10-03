@@ -10,3 +10,13 @@
 .swiper-button-next, .swiper-button-prev {
 	color: #004b52;
 }
+@media screen and (min-width: 993px) {
+	.burger-icon {
+		  display: none;
+	  }
+  }
+  .body-overlay-1 {
+	  display: none;
+  }
+  
+  

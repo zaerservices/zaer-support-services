@@ -1,20 +1,43 @@
 
 import Layout from "../components/layout/Layout";
+import {useState} from 'react'
+import { useRouter } from "next/router";
+
+
+
 
 
 function Contact() {
+    const [data, setData] = useState('')
+    const router = useRouter();
+
+    
     async function handleOnSubmit(e){
+
         e.preventDefault();
         const formData = {}
         Array.from(e.currentTarget.elements).forEach(field =>{
-            if (!field.name) return
+            if (!field.name) return;
             formData[field.name] = field.value
-        })
-        fetch('/api/mail', {
-            method:'post',
-            body:JSON.stringify(formData)
-        })
-        console.log(formData)
+            setData(formData)
+         })
+         fetch('http://127.0.0.1:8000/contact/', {
+             method:'post',
+             body:JSON.stringify(formData),
+             headers:{'Content-Type': 'application/json'},
+        
+
+        }
+        ).then(res=>res.json()).then(res => console.log(res)).catch(error=>console.log(error))
+    //    const options = {
+    //          method:'post',
+    //          body:JSON.stringify(formData)
+    //    }
+    //    fetch('http://127.0.0.1:8000/contact/', options).
+    //    then(res=>res.json()).then(res => console.log(res).catch(error=>console.log(error))
+        router.push('/')
+       
+        
     }
     return (
         <>
@@ -49,7 +72,7 @@ function Contact() {
                                                 <div className="form-group"><input className="form-control"  placeholder="Enter your name" name="name" /></div>
                                             </div>
                                             <div className="col-lg-6">
-                                                <div className="form-group"><input className="form-control"  placeholder="Comapy (optioanl)" name="company" /></div>
+                                                <div className="form-group"><input className="form-control"  placeholder="Company (optional)" name="company" /></div>
                                             </div>
                                             <div className="col-lg-6">
                                                 <div className="form-group"><input className="form-control"  placeholder="Your email"  name="email" /></div>
@@ -166,6 +189,7 @@ function Contact() {
                         </div>
                     </div> */}
                 </section>
+                
 
             </Layout>
 
