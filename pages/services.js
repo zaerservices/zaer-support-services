@@ -28,7 +28,7 @@ function Services() {
                                     <h2 className="text-heading-1 color-gray-900">
                                     NDIS Care with Zaer
                                     </h2>
-                                    <p className="text-body-lead-large color-gray-600 mt-20">
+                                    <p className="text-body-lead-large color-gray-600 mt-20 content-text">
                                     We strive to provide you with the best possible care,
                                     freedom, and respect, and make sure that you are
                                     always empowered in your choices. We’ll be with you

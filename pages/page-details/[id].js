@@ -36,7 +36,7 @@ function GroupActivities() {
                         <div className="row">
                         <div className="col-lg-6 col-sm-12 block-we-do-2">
                             <h3 className="text-heading-2 mt-30"> {singlePage.title}</h3>
-                            <p className="text-body-lead-large color-gray-600 mt-30">{singlePage.body}</p>
+                            <p className="text-body-lead-large color-gray-600 mt-30 content-text">{singlePage.body}</p>
                             {/* <div className="list-icons mt-40">
                             <div className="item-icon none-bd wow animate__animated animate__fadeIn" data-wow-delay=".1s"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-work.svg" /></span>
                                 <h4 className="text-heading-4">Best Price Guarantee</h4>

@@ -18,7 +18,7 @@ function About3() {
                             <div className="row">
                                 <div className="col-lg-12 text-center">
                                     <h1 className="text-display-2 color-gray-900">About Us</h1>
-                                    <p className="text-heading-4 color-gray-600 mt-40">Zaer Support Services is a disability support services provider based in Tarneit, Victoria.
+                                    <p className="text-heading-4 color-gray-600 mt-40 content-text">Zaer Support Services is a disability support services provider based in Tarneit, Victoria.
                                      The company is established with the sole aim of offering support that always puts participants first.
                                     National Disability Insurance Scheme (NDIS) is a ground-breaking Australian Government initiative that 
                                     provides support to Australians living with a permanent or long-term disability.</p>
@@ -48,7 +48,7 @@ function About3() {
                             <div className="col-lg-10 col-sm-10 col-12 text-center">
                                          <h2 className="text-heading-1 color-gray-900 mb-10">Zaer, where your search for NDIS care providers ends and your independence get a new life.
                                          </h2>
-                                                <p className="text-body-lead-large color-gray-600 mt-20">Zaer Disability Support - Your NDIS care support
+                                                <p className="text-body-lead-large color-gray-600 mt-20 content-text">Zaer Disability Support - Your NDIS care support
                                                     provider. We understand the challenges that you may
                                                     face on a daily basis, and we are dedicated to provide
                                                     the service that you need to live a fulfilling life. We

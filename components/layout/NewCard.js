@@ -19,7 +19,7 @@ function NewCard() {
       <Card.Body  className="d-flex flex-column justify-content-around">
         <Card.Title>{props.title}</Card.Title>
         <div className="d-flex align-items-start"></div>
-        <Card.Text>
+        <Card.Text className="content-text" >
          {props.body.substring(0, 60)}.......
         </Card.Text>
        

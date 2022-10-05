@@ -83,7 +83,7 @@ function Home() {
                                         <span className="color-green-900"> Support Services, </span>
                                         your NDIS care support provider
                                     </h1>
-                                    <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
+                                    <p className="text-body-lead-large color-gray-500 mt-40 pr-40 content-text">
                                     In Zaer Support Services we provide a range of disability services 
                                     by aiming to make a difference in the lives of those living with disability. 
                                     The goal is to make each of our participants’ lives easier, fairer, and make sure that you're
@@ -112,7 +112,7 @@ function Home() {
                                 <h3 className="text-heading-1 mt-20">NDIS Care Support with  Z<span className="color-green-900">A</span>
                                     ER Support Services</h3>
                                 <p className="text-body-lead-large color-gray-600 mt-30">
-                                Zaer Support Services sis established with the sole aim of offering
+                                Zaer Support Services is established with the sole aim of offering
                                  support that always puts participants first.</p>
                                 <div className="row mt-20">
                                     <div className="col-lg-6 col-sm-6 col-12 mt-20">
@@ -142,7 +142,7 @@ function Home() {
                                     <h2 className="text-heading-1 color-gray-900">
                                     We know that your NDIS journey has unique challenges
                                     </h2>
-                                    <p className="text-body-lead-large color-gray-600 mt-20">
+                                    <p className="text-body-lead-large color-gray-600 mt-20 content-text">
                                     Zaer, a certified NDIS provider that you can rely on. We
                                     provide personally-led support designed to meet your
                                     unique needs and conditions. Our qualified
@@ -202,7 +202,7 @@ function Home() {
                                 <h2 className="text-heading-1 color-gray-900">
                                 What We Offer
                                 </h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">
+                                <p className="text-body-lead-large color-gray-600 mt-20 content-text">
                                 We have a diverse community dedicated to serve every single one of you.
                                 Our services are designed with care and compassion to meet your unique
                                 needs and conditions with utmost dedication and passion.
@@ -221,7 +221,7 @@ function Home() {
                                     <h3 className="text-heading-3 mt-20">
                                     Facilitating opportunities
                                     </h3>
-                                    <p className="text-body-excerpt mt-20">
+                                    <p className="text-body-excerpt mt-20 content-text">
                                     You're never too old for your dreams!
 
                                     And we believe in creating opportunities for you 
@@ -240,7 +240,7 @@ function Home() {
                                     <h3 className="text-heading-3 mt-20">
                                     Supporting Freedom
                                     </h3>
-                                    <p className="text-body-excerpt mt-20">
+                                    <p className="text-body-excerpt mt-20 content-text">
                                     At Zaer Support Services, We understand the
                                      challenges that you may face on a daily basis, and we are dedicated to 
                                      providing the service you need to live a fulfilling life.
@@ -259,7 +259,7 @@ function Home() {
                                     <h3 className="text-heading-3 mt-20">
                                     Cultural & Linguistic Diversity
                                     </h3>
-                                    <p className="text-body-excerpt mt-20">
+                                    <p className="text-body-excerpt mt-20 content-text">
                                     Our community is diverse and we are dedicated to serving 
                                     every single one. Offering treatment and care to those who 
                                     want it while advocating for the human rights of all our members!
