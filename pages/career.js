@@ -17,11 +17,12 @@ function Career() {
                 <section className="section-box">
                     <div className="banner-hero banner-3">
                         <div className="container">
-                            <div className="text-center"><span className="tag-1 bg-6 color-green-900">Success Together</span>
-                                <h1 className="text-display-2 color-gray-900 mt-30">Working with us,<br className="d-lg-block d-none" />the awesome team</h1>
-                                <div className="text-body-lead-large color-gray-500 mt-40">Our focus is always on finding the best people to work with. Our bar<br className="d-lg-block d-none" />is high, but you look ready to take on the challenge.</div>
+                            <div className="text-center">
+                            {/* <span className="tag-1 bg-6 color-green-900">Success Together</span> */}
+                                <h1 className="text-display-2 color-gray-900 mt-30">Join our Team</h1>
+                                {/* <div className="text-body-lead-large color-gray-500 mt-40">Our focus is always on finding the best people to work with. Our bar<br className="d-lg-block d-none" />is high, but you look ready to take on the challenge.</div> */}
                                 <div className="mt-55">
-                                    <a href="mailto:email@example.com"  className="btn btn-black  mb-15 mr-20" target="_blank" rel="noreferrer" >JOIN OUR TEAM</a>
+                                    <a href="mailto:email@example.com"  className="btn btn-black  mb-15 mr-20" target="_blank" rel="noreferrer" >Apply Now</a>
 
                                     
                                 </div>
@@ -35,8 +36,10 @@ function Career() {
                             <div className="col-lg-1" />
                             <div className="col-lg-10">
                                 <div className="box-image">
+                                
                                        
                                     <img className="img-responsive bdrd-16" src="assets/imgs/template/career.jpg" alt="career img" /></div>
+                                    
                             </div>
                             <div className="col-lg-1" />
                         </div>
@@ -48,11 +51,11 @@ function Career() {
 
                
 
-                <section className="section-box pt-100 pb-100 mt-100 banner-hero banner-1">
+                {/* <section className="section-box pt-100 pb-100 mt-100 banner-hero banner-1">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-5 mb-30">
-                            {/* <span className="tag-1 bg-6 color-gray-900">Built Exclusively For You</span> */}
+                         
                                 <h3 className="text-heading-1 mt-30">Why Our Team Is One Of The Best!</h3>
                                 <p className="text-body-lead-large color-gray-600 mt-30">There are countless great reasons to work at Zaer Support Services and we hate to brag, but it’s too hard not to!</p>
                                 <div className="mt-40">
@@ -68,7 +71,7 @@ function Career() {
                                             <div className="box-img-user">
                                                 <div className="img-user img-user-round"><img src="/assets/imgs/template/user_female.jpg" alt="Zaer-staff-avatar" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Rish</h4>
-                                                {/* <p className="text-body-text-md">Biffco Enterprises Ltd.</p> */}
+                                              
                                             </div>
                                         </div>
                                     </div>
@@ -78,7 +81,7 @@ function Career() {
                                             <div className="box-img-user">
                                                 <div className="img-user img-user-round"><img src="/assets/imgs/template/user_male.jpg" alt="Zaer-staff-avatar" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Jade</h4>
-                                                {/* <p className="text-body-text-md">Krusty Krab</p> */}
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -88,7 +91,7 @@ function Career() {
                                             <div className="box-img-user">
                                                 <div className="img-user img-user-round"><img src="/assets/imgs/template/user_female.jpg" alt="Zaer-staff-avatar" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Lianne </h4>
-                                                {/* <p className="text-body-text-md">Biffco Enterprises Ltd.</p> */}
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -106,7 +109,7 @@ function Career() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/* <section className="section-box">
                     <div className="container mt-110">
                         <div className="row">

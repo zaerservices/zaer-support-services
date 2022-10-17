@@ -50,7 +50,7 @@ function About3() {
                                          </h2>
                                                 <p className="text-body-lead-large color-gray-600 mt-20 content-text">Zaer Disability Support - Your NDIS care support
                                                     provider. We understand the challenges that you may
-                                                    face on a daily basis, and we are dedicated to provide
+                                                    face on a daily basis, and we are dedicated to providing
                                                     the service that you need to live a fulfilling life. We
                                                     offer a range of disability services tailored to suit your
                                                     unique individual needs. Whether you're living with

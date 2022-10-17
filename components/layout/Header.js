@@ -20,7 +20,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             <div className="header-logo">
                                 <Link href="/">
                                     <a className="d-flex">
-                                        {headerStyle ? <img alt="Zaer Logo" src="/assets/imgs/template/zaer_logo.svg" /> : <img alt="Zaer Logo" src="/assets/imgs/template/zaer_logo.svg" />}
+                                        {headerStyle ? <img alt="Zaer Logo" src="/assets/imgs/template/zaer_new_logo.svg" /> : <img alt="Zaer Logo" src="/assets/imgs/template/zaer_new_logo.svg" />}
 
                                     </a>
                                 </Link>
@@ -124,7 +124,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul> */}
                                         </li>
                                         <li>
-                                                    <Link href="/career"><a className="closer"><i className="fi fi-rr-briefcase white" />Join Our Team</a></Link>
+                                                    <Link href="/career"><a className="closer"><i className="fi fi-rr-briefcase white" />Careers</a></Link>
                                                 </li>
                                         {/* <li >
                                             <Link href="blog-2"><a>Blog</a></Link> */}

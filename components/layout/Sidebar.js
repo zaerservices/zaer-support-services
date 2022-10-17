@@ -63,7 +63,7 @@ const Sidebar = ({ openClass }) => {
                                            
                                         </li>
                                         <li>
-                                                    <Link href="/career"><a className="closer"><i className="fi fi-rr-briefcase" />Join Our Team</a></Link>
+                                                    <Link href="/career"><a className="closer"><i className="fi fi-rr-briefcase" />Careers</a></Link>
                                         </li>
                                      
                                         
@@ -74,7 +74,7 @@ const Sidebar = ({ openClass }) => {
                             <div className="site-copyright color-gray-400">
                                 Copyright 2022 © Zaer - Disability Services.<br />Designed
                                 by
-                                <Link href="http://codeteki.com.au"><a target="_blank" >&nbsp; Codeteki Digital Services</a></Link>
+                                <Link href="http://codeteki.au"><a target="_blank" >&nbsp; Codeteki Digital Services</a></Link>
                             </div>
                         </div>
                     </div>

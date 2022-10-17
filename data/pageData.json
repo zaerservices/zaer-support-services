@@ -3,7 +3,7 @@
       "id": 0,
       "img": "/assets/imgs/template/assist_product.jpg",
       "title":"Assistive Products for Personal Care and Safety",
-      "body": "We help to transform the lives of the disabled by ensuring that they have access to the right support, advice, and products. We provide a wide range of assistive products to ensure that our clients have everything that they need to live as independently as possible. The provision of products is designed to maximize an individual's care and personal safety, such as beds and pressure mattresses, bathroom equipment, continence needs, and specialized clothing.",
+      "body": "We help to transform the lives of the participants by ensuring that they have access to the right support, advice, and products. We provide a wide range of assistive products to ensure that our clients have everything that they need to live as independently as possible. The provision of products is designed to maximize an individual's care and personal safety, such as beds and pressure mattresses, bathroom equipment, continence needs, and specialized clothing.",
       "image": "/assets/imgs/template/assist_daily.jpg"
       
      
@@ -12,7 +12,7 @@
         "id": 1,
         "img": "/assets/imgs/template/card4.jpg",
         "title":"Personal Mobility Equipments",
-        "body": "Our mobility aid devices are designed to help people having problems with moving around and enjoy greater freedom and independence. We provide a range of products to help people with physical disabilities and impairments to improve their quality of life. Provision of products that enable people&#39;s physical mobility, such as wheelchairs, transfer aids, and walking equipment. We provide solutions to assist in everyday activities such as going grocery shopping or attending school. We always strive to keep our equipment up to date and we keep looking for ways to improve our range of products and services- so you can always find what you need from us. Zaer is dedicated to making life better. Our mission is to help people live their lives without any limitations or restrictions.",
+        "body": "Our mobility aid devices are designed to help people having problems with moving around and enjoy greater freedom and independence. We provide a range of products to help people with physical disabilities and impairments to improve their quality of life. Provision of products that enable peoples physical mobility, such as wheelchairs, transfer aids, and walking equipment. We provide solutions to assist in everyday activities such as going grocery shopping or attending school. We always strive to keep our equipment up to date and we keep looking for ways to improve our range of products and services so you can always find what you need from us. Zaer is dedicated to making life better. Our mission is to help people live their lives without any limitations or restrictions.",
         "image": "/assets/imgs/template/personal_mobility2.jpg"
        
       },
@@ -41,7 +41,7 @@
         "id": 5,
         "img":"/assets/imgs/template/card7.jpg",
         "title":"Assistive Equipment for Recreation",
-        "body":"We believe that everyone should be given the opportunity to pursue their recreational passions without being hindered by accessibility issues. With a focus on helping those with disabilities enjoy the same experiences as anyone else, we&#39;ve created the Zaer experience to remind us that disability is only physical. We provide products that assist our clients when engaging in recreational pursuits (e.g., sport, exercise/fitness).",
+        "body":"We believe that everyone should be given the opportunity to pursue their recreational passions without being hindered by accessibility issues. With a focus on helping those with disabilities enjoy the same experiences as anyone else, we've created the Zaer experience to remind us that disability is only physical. We provide products that assist our clients when engaging in recreational pursuits.",
         "image": "/assets/imgs/template/assist_recreation2.jpg"
       },
       {
@@ -62,7 +62,7 @@
         "id": 8,
         "img":"/assets/imgs/template/innovative_community.jpg",
         "title":"Innovative Community Participation",
-        "body":"With Innovative Community Participation Programs, you can help people with a disability develop their skills and confidence and help to increase their communication with other members of society. Community-based organizations are an important resource for people with disabilities. These organizations provide a safe space for people with disabilities to socialize, learn skills, and participate in activities. They are also a great opportunity for people with disabilities to build confidence and gain new skills. Community-based organizations provide a supportive environment where people can interact with others who have similar experiences",
+        "body":"We can help participants develop their skills and confidence and help to increase their communication with other members of society. Our staff provides a safe space for people with disabilities to socialize, learn skills, and participate in activities. These activities are also a great opportunity for participants to build confidence and gain new skills. Community-based experiences provide a supportive environment where participants  can interact with others who have similar experiences.",
         "image": "/assets/imgs/template/innovative_community2.jpg"
       },
       {
@@ -97,21 +97,21 @@
         "id": 13,
         "img":"/assets/imgs/template/card2.jpg",
         "title":"Communication and Information Equipment ",
-        "body":"A disability is not a limitation, Zaer is here to empower you. We believe that people with disabilities are entitled to the same opportunities as those without disabilities. That's why we work hard to provide accessible solutions through providing provision of products to assist people in accessing written or spoken communication through electronic means, as well as to access alternative forms of communication.",
+        "body":"At Zaer Support Services, we work hard to provide accessible solutions through providing provision of products to assist people in accessing written or spoken communication through electronic means, as well as to access alternative forms of communication.",
         "image": "/assets/imgs/template/communication2.jpg"
       },
       {
         "id": 14,
         "img":"/assets/imgs/template/participation_community.jpg",
         "title":"Participation in the Community",
-        "body":"Including supported shopping, medical appointments, sporting and recreational events, social activities, visiting or making new friends, travel and transport and building confidence and social skills. Zaer support services committed to provide to support for people with disabilities who are looking for an advocate, someone to talk to, or just need a friend. You can also use our services to find others who share your interests.",
+        "body":"Our team at Zaer’s is committed to providing support for people with disabilities who are looking for an advocate, someone to talk to, or just need a friend. Including supported shopping, medical appointments, sporting and recreational events, social activities, visiting or making new friends, travel and transport and building confidence and social skills.",
         "image": "/assets/imgs/template/participation_community2.jpg"
       },
       {
         "id": 15,
         "img":"/assets/imgs/template/group_based.jpg",
         "title":"Group and Centre-based Activities",
-        "body":"Zaer is committed to the betterment of the disabled. We work with individuals and organizations that have a shared goal of improving the quality of life for disabled individuals. We provide social outings and group and social activities on Zaer Support Services’ premises. We offer collaboration programs that advance social consideration exercises that help the members in carrying on with a blissful and free existence.",
+        "body":"We at Zaer’s work with individuals and organizations that have a shared goal of improving the quality of life of the participants. We provide inclusion in social outings and group and social activities. We also offer collaboration programs that advance social consideration exercises for the participants.",
         "image": "/assets/imgs/template/group_activity2.jpg"
       }
       

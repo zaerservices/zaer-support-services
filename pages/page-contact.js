@@ -42,14 +42,14 @@ function Contact() {
     return (
         <>
             <Layout>
-                <section className="section-box">
+                {/* <section className="section-box">
                     <div className="banner-hero banner-breadcrums">
                         <div className="container text-center">
                             <h1 className="text-heading-2 color-gray-1000 mb-20">Contact Us</h1>
                             <h3 className="text-heading-6 color-gray-500">Zaer Support Services: your friend in need.</h3>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className="section-box">
                     <div className="container mb-20 mt-140">
                         <div className="bdrd-58 box-gray-100 icon-wave">
@@ -112,40 +112,40 @@ function Contact() {
                         <div className="text-center block-step bg-9 hover-up">
                         <div className="mb-30"><img src="/assets/imgs/template/support.png" /></div>
                         <h3 className="text-heading-5 mb-10">Get In Touch With Us</h3>
-                        {/* <p className="text-body-text color-gray-500">Choose any of our packages</p> */}
+                        
                         </div>
                     </li>
                     <li className="icon-asset2">
                         <div className="text-center block-step hover-up">
                         <div className="mb-30"><img src="/assets/imgs/template/staff.png" /></div>
                         <h3 className="text-heading-5 mb-10">Meet Our Friendly Staff</h3>
-                        {/* <p className="text-body-text color-gray-500">Receive concepts In 24 hours</p> */}
+                       
                         </div>
                     </li>
                     <li className="icon-asset3">
                         <div className="text-center block-step bg-5 hover-up">
                         <div className="mb-30"><img src="/assets/imgs/template/goals.png" /></div>
                         <h3 className="text-heading-5 mb-10">Determine The Goals</h3>
-                        {/* <p className="text-body-text color-gray-500">Development Stage</p> */}
+                        
                         </div>
                     </li>
-                    <li className="icon-asset4">
+                    <li className="">
                         <div className="text-center block-step bg-5 hover-up">
                         <div className="mb-30"><img src="/assets/imgs/template/enjoy.png" /></div>
                         <h3 className="text-heading-5 mb-10">Enjoy the life you deserve</h3>
-                        {/* <p className="text-body-text color-gray-500">After-release Support</p> */}
+                        
                         </div>
                     </li>
-                    <li>
+                    {/* <li>
                         <div className="text-center block-step bg-9 hover-up">
                         <div className="mb-30"><img src="/assets/imgs/template/ndis2.png" /></div>
                         <h3 className="text-heading-5 mb-10">Develop a NDIS Care Plan</h3>
-                        {/* <p className="text-body-text color-gray-500">Project launch and checkout</p> */}
+                       
                         </div>
-                    </li>
+                    </li> */}
                     </ul>
                 </div>
-                {/* <div className="col-lg-1 col-sm-12 col-12"></div> */}
+              
                 </div>
             </div>
         </div>
@@ -156,7 +156,7 @@ function Contact() {
                         <div className="row">
                             <div className="col-lg-12 col-sm-10 col-12 text-center mt-40">
                                 <h2 className="text-heading-1 color-gray-900 mb-20">Our Location</h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">Zaer Support Services is a disability support services provider  <br className="d-lg-block d-none" />based in Tarneit, Victoria..</p>
+                                <p className="text-body-lead-large color-gray-600 mt-20">Zaer Support Services is a disability support services provider  <br className="d-lg-block d-none" />based in  Tarneit, Victoria..</p>
                             </div>
                         </div>
                     </div>

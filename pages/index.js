@@ -65,10 +65,10 @@ function Home() {
                                 <Link href="/services"><a className="item-logo box-hover-shadow hover-up"><img alt="Zaer services Icons" src="assets/imgs/template/ndis.png" /></a></Link>
                                 <h5>Registered NDIS Provider</h5>
                             </div>
-                            <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                            {/* <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
                                 <Link href="/services"><a className="item-logo box-hover-shadow hover-up"><img alt="Zaer services Icons" src="assets/imgs/template/notepad.png" /></a></Link>
                                 <h5>Get your plan Underway</h5>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
