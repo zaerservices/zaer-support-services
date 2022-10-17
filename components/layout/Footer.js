@@ -186,7 +186,7 @@ const Footer = () => {
                                 
                             
                             
-                                <Link href="/page-terms">
+                                <Link href="/terms-services">
                                     <a className="text-body-text color-gray-400 ml-50">Terms of service</a>
                                 </Link>
                                 <div className="col-md-6 ">
