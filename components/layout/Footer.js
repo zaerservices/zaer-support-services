@@ -23,7 +23,7 @@ const Footer = () => {
                             
                                 <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">Ready to get started?</span>
                                 
-                                    <a className="btn btn-square" href="tel:0469807872">Call Us Now </a>
+                                    <a className="btn btn-square" href="tel:0420535983">Call Us Now </a>
                                 
                             </div>
                         </div>
@@ -175,18 +175,29 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-md-6">
                                 <span className="color-gray-400 text-body-lead">© ZAER Support Services 2022</span>
+                                {/* <div className="site-copyright color-gray-400">
+                                Copyright 2022 © Zaer - Support Services.<br />Designed
+                                by
+                                <Link href="http://codeteki.au"><a target="_blank" >&nbsp; Codeteki Digital Services</a></Link>
+                            </div> */}
                                 <Link href="/privacy">
                                     <a className="text-body-text color-gray-400 ml-50">Privacy policy</a>
                                 </Link>
-                                {/* <Link href="/page-terms">
-                                    <a className="text-body-text color-gray-400 ml-50">Cookies</a>
-                                </Link> */}
+                                
+                            
+                            
                                 <Link href="/page-terms">
                                     <a className="text-body-text color-gray-400 ml-50">Terms of service</a>
                                 </Link>
+                                <div className="col-md-6 ">
+                                <Link  href="https://www.codeteki.au"><a target="_blank"  className="text-body-lead color-green-900">&nbsp; Design by Codeteki - www.codeteki.au</a></Link>
+                                </div>
                             </div>
+                                
                             <div className="col-md-6 text-center text-lg-end text-md-end">
+                           
                                 <div className="footer-social">
+                                
                                     <Link href="https://facebook.com">
                                         <a className="icon-socials icon-facebook" target="_blank"></a>
                                     </Link>
@@ -199,11 +210,13 @@ const Footer = () => {
                                     <Link href="https://www.linkedin.com">
                                         <a className="icon-socials icon-linkedin" target="_blank"></a>
                                     </Link>
+                                    
+                                </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+               
             </footer>
         </>
     );

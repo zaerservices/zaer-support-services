@@ -63,7 +63,8 @@ function Contact() {
                                 <div className="col-lg-4 mb-40">
                                     <h4 className="text-heading-6 color-gray-900 icon-home mb-10 mt-10">ZAER Support Services</h4>
                                     <p className="text-body-text color-gray-600">Tarneit<br />Victoria</p>
-                                    <p className="text-body-text color-gray-600">support@zaer.com</p>
+                                    <p className="text-body-text color-gray-600" >Tel: 0420 535 983</p>
+                                    <p className="text-body-text color-gray-600">zaer.services@gmail.com</p>
                                 </div>
                                 <form action="post" onSubmit={handleOnSubmit}>
                                     <div className="col-lg-8">

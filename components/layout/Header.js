@@ -159,7 +159,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                         <div className="header-right">
                             <div className="block-signin">
                                 {/* <Link href="/page-signup"><a className="btn btn-default hover-up icon-arrow-right">Get Started</a></Link> */}
-                                <a href="tel:0424538777" className="btn btn-black shape-square ">Call Us Now</a>
+                                <a href="tel:0420535983" className="btn btn-black shape-square ">Call Us Now</a>
                             </div>
                         </div>
                     </div>

@@ -111,20 +111,20 @@ function GroupActivities() {
                         
                         </div>
                     </li>
-                    <li className="icon-asset4">
+                    <li className="">
                         <div className="text-center block-step bg-5 hover-up">
                         <div className="mb-30"><img src="/assets/imgs/template/enjoy.png" /></div>
                         <h3 className="text-heading-5 mb-10">Live life to the fullest</h3>
                        
                         </div>
                     </li>
-                    <li>
+                    {/* <li>
                         <div className="text-center block-step bg-9 hover-up">
                         <div className="mb-30"><img src="/assets/imgs/template/ndis2.png" /></div>
                         <h3 className="text-heading-5 mb-10">Prepare a NDIS care plan</h3>
                         
                         </div>
-                    </li>
+                    </li> */}
                     </ul>
                 </div>
                 <div className="col-lg-1 col-sm-12 col-12"></div>

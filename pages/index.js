@@ -4,7 +4,7 @@ import React from 'react'
 
 import Link from "next/link";
 import { useState } from "react";
-import Head from 'next/head'
+
 import Banner from "../components/layout/Banner";
 
 
@@ -27,18 +27,8 @@ function Home() {
 
     return (
         <>
-            {/* <Link href="/#">
-                <a>Link</a></Link>
-            </Link> */}
-            <Head>
-                <title>Zaer Support Services</title>
-                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <meta property="og:title" content="Zaer Support Services" key="title" />
-                <meta name="description" content="Zaer Support Services is a leading registered NDIS provider in Melbourne, offering
-
-                    a range of services to people with disability and their families or guardians. " key="description" />
-                    <link rel="icon" href="/assets/imgs/template/logo2.png"/>
-            </Head>
+           
+           
             <Layout>
                 <Banner/>
                 <section>

@@ -22,7 +22,7 @@ function Career() {
                                 <h1 className="text-display-2 color-gray-900 mt-30">Join our Team</h1>
                                 {/* <div className="text-body-lead-large color-gray-500 mt-40">Our focus is always on finding the best people to work with. Our bar<br className="d-lg-block d-none" />is high, but you look ready to take on the challenge.</div> */}
                                 <div className="mt-55">
-                                    <a href="mailto:email@example.com"  className="btn btn-black  mb-15 mr-20" target="_blank" rel="noreferrer" >Apply Now</a>
+                                    <a href="mailto:zaer.services@gmail.com"  className="btn btn-black  mb-15 mr-20" target="_blank" rel="noreferrer" >Apply Now</a>
 
                                     
                                 </div>
