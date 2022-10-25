@@ -54,19 +54,19 @@ function Contact() {
                                     <div className="col-lg-8">
                                         <div className="row">
                                             <div className="col-lg-6">
-                                                <div className="form-group"><input className="form-control"  placeholder="Enter your name" name="name" /></div>
+                                                <div className="form-group"><input className="form-control"  placeholder="Enter your name" name="name" required /></div>
                                             </div>
                                             <div className="col-lg-6">
                                                 <div className="form-group"><input className="form-control"  placeholder="Company (optional)" name="company" /></div>
                                             </div>
                                             <div className="col-lg-6">
-                                                <div className="form-group"><input className="form-control"  placeholder="Your email"  name="email" /></div>
+                                                <div className="form-group"><input className="form-control"  placeholder="Your email"  name="email" required /></div>
                                             </div>
                                             <div className="col-lg-6">
                                                 <div className="form-group"><input className="form-control"  placeholder="Phone number" name="phone" /></div>
                                             </div>
                                             <div className="col-lg-12">
-                                                <div className="form-group"><textarea className="form-control" placeholder="Enter your message"  name="message" /></div>
+                                                <div className="form-group"><textarea className="form-control" placeholder="Enter your message"  name="message" required /></div>
                                             </div>
                                             <div className="col-lg-12 mt-15"><button className="btn btn-black  mr-40 mb-20" type="submit">Send Message</button><br className="d-lg-none d-block" /><span className="text-body-text-md color-gray-500 mb-20">By clicking contact us button, you agree our terms and policy,</span></div>
                                         </div>
